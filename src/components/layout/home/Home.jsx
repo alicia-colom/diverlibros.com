@@ -7,6 +7,7 @@ import photoProductDiverlibro from "../../../assets/products/product-main-diverl
 import photoProductMiniDiverlibro from "../../../assets/products/product-main-minidiverlibro.jpg";
 import photoProductCalendario from "../../../assets/products/product-main-calendario.jpg";
 import photoProductCuadro from "../../../assets/products/product-main-cuadro.jpg";
+
 import testimony1 from "../../../assets/testimonials/testimonio-home-1.jpg";
 import testimony2 from "../../../assets/testimonials/testimonio-home-2.jpg";
 import testimony3 from "../../../assets/testimonials/testimonio-home-3.jpg";
@@ -161,6 +162,7 @@ function Home() {
           </Grid>
         </Grid>
       </div>
+
       <div className="section testimonials">
         <h3>
           Estas son algunas de las impresiones que deja{" "}
@@ -229,6 +231,7 @@ function Home() {
           </Grid>
         </Grid>
       </div>
+
       <div className="section who">
         <h3>
           ¿Quién está detrás de{" "}
