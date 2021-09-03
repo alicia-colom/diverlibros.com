@@ -8,8 +8,8 @@ body {
   padding: 0px;
   max-width: 100%;
   overflow-x: hidden;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
-    "Open Sans", "Manjari", "Indie Flower", "Oxygen", "Ubuntu", "Cantarell",
+  font-family: -apple-system, BlinkMacSystemFont, "Open Sans", "Manjari",
+    "Indie Flower", "Roboto", "Segoe UI", "Oxygen", "Ubuntu", "Cantarell",
     "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif, cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

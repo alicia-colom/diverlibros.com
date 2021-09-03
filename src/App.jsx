@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import "./App.css";
+import "./App.scss";
 import Header from "./components/layout/header/Header";
 import AboutUs from "./components/layout/aboutUs/AboutUs";
 import Catalog from "./components/layout/catalog/Catalog";
@@ -13,7 +13,7 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <Header />
-        <main className="mainContainer">
+        <main className="main__container">
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/catalogo" component={Catalog} />
