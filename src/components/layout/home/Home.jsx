@@ -54,7 +54,7 @@ function Home() {
     <>
       <Hero />
       <div className="section products">
-        <h3>
+        <h3 className="products__header">
           <span className="fontDiverlibros">Diverlibros</span> es la marca con
           la que aprender jugando
         </h3>

@@ -8,8 +8,13 @@
 .products {
   margin: 40px 40px 56px 40px;
   padding-bottom: 48px;
+  padding-top: 32px;
   border-radius: 50%;
   border: 6px dotted #22c3a3;
+  &__header {
+    margin-block-end: 10px;
+  }
+
   &__title {
     font-family: "Manjari", sans-serif;
     color: #22c3a3;
