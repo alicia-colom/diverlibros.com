@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 import Hero from "../hero/Hero";
 import "./Home.scss";
 import { makeStyles, Grid, Paper } from "@material-ui/core";
-import photoProductDiverlibro from "../../../assets/products/foto-producto-lorem-ipsum.jpg";
-import photoProductMiniDiverlibro from "../../../assets/products/foto-producto-lorem-ipsum.jpg";
-import photoProductCalendario from "../../../assets/products/foto-producto-lorem-ipsum.jpg";
-import photoProductCuadro from "../../../assets/products/foto-producto-lorem-ipsum.jpg";
+import photoProductDiverlibro from "../../../assets/products/product-main-diverlibro.jpg";
+import photoProductMiniDiverlibro from "../../../assets/products/product-main-minidiverlibro.jpg";
+import photoProductCalendario from "../../../assets/products/product-main-calendario.jpg";
+import photoProductCuadro from "../../../assets/products/product-main-cuadro.jpg";
 import testimony1 from "../../../assets/testimonials/testimonio-home-1.jpg";
 import testimony2 from "../../../assets/testimonials/testimonio-home-2.jpg";
 import testimony3 from "../../../assets/testimonials/testimonio-home-3.jpg";
@@ -15,6 +15,8 @@ import testimony5 from "../../../assets/testimonials/testimonio-home-5.jpg";
 import testimony6 from "../../../assets/testimonials/testimonio-home-6.jpg";
 import testimony7 from "../../../assets/testimonials/testimonio-home-7.jpg";
 import testimony8 from "../../../assets/testimonials/testimonio-home-8.jpg";
+import testimony9 from "../../../assets/testimonials/testimonio-home-9.jpg";
+
 import photoNuriaDominguez from "../../../assets/nuria-dominguez-perfil-diverlibro.jpg";
 
 const useStyles = makeStyles((theme) => ({
@@ -24,16 +26,20 @@ const useStyles = makeStyles((theme) => ({
     textAlign: "center",
   },
   paperProduct: {
-    backgroundColor: "#40DEBF",
-    height: theme.spacing(60),
+    backgroundColor: "#dddddd",
+    height: theme.spacing(53),
     textAlign: "center",
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
+    borderRadius: "20px",
   },
   paperTestimony: {
-    backgroundColor: "transparent",
-    height: theme.spacing(60),
+    //backgroundColor: "#727272",
+    background:
+      "radial-gradient(0 0, ellipse farthest-corner, #22C3A3 2%, #188F77 40%, #40DEBF)",
+    boxShadow: "5px 8px 10px -5px rgba(17, 17, 17, 0.5)",
+    color: "#dddddd",
     textAlign: "center",
     display: "flex",
     flexDirection: "column",
@@ -48,7 +54,10 @@ function Home() {
     <>
       <Hero />
       <div className="section products">
-        <h3>Diverlibros es la marca con la que aprender jugando</h3>
+        <h3>
+          <span className="fontDiverlibros">Diverlibros</span> es la marca con
+          la que aprender jugando
+        </h3>
         <Grid container spacing={3} className={cls.container}>
           <Grid item xs={6} sm={3}>
             <Paper className={cls.paperProduct}>
@@ -80,7 +89,7 @@ function Home() {
             <Paper className={cls.paperProduct}>
               <h4 className="products__title">MINI-DIVERLIBROS</h4>
               <p className="products__description">
-                Pequeñas dosis de gran diversión
+                Pequeñas dosis de con la misma gran diversión
               </p>
               <Link to="/catalogo">
                 <img
@@ -153,24 +162,32 @@ function Home() {
         </Grid>
       </div>
       <div className="section testimonials">
-        <h3>Estas son algunas de las impresiones que deja Diverlibros</h3>
+        <h3>
+          Estas son algunas de las impresiones que deja{" "}
+          <span className="fontDiverlibros"> Diverlibros</span> :
+        </h3>
         <Grid container spacing={3} className={cls.container}>
           <Grid item xs={6} sm={3}>
             <Paper className={cls.paperTestimony}>
-              <p className="testimonials__quote">Testimonio #1</p>
+              <h4 className="testimonials__author">Sira Brun</h4>
+              <p className="testimonials__author--quote">
+                Diverlibros y calendario para 3 niños de entre 2 y 5 años
+              </p>
               <img
-                src={testimony1}
+                src={testimony9}
                 alt="Testimonio de clientes sobre Diverlibro"
                 className="testimonials__img"
                 title="Testimonio de clientes"
                 aria-label="Testimonio de clientes sobre Diverlibro"
               />
-              <p className="testimonials__quote--author">@nombre-cliente</p>
             </Paper>
           </Grid>
           <Grid item xs={6} sm={3}>
             <Paper className={cls.paperTestimony}>
-              <p className="testimonials__quote">Testimonio #2</p>
+              <h4 className="testimonials__author">Mari Olivero Cobo</h4>
+              <p className="testimonials__author--quote">
+                Diverlibro para niño de 3 años
+              </p>
               <img
                 src={testimony2}
                 alt="Testimonio de clientes sobre Diverlibro"
@@ -178,12 +195,14 @@ function Home() {
                 title="Testimonio de clientes"
                 aria-label="Testimonio de clientes sobre Diverlibro"
               />
-              <p className="testimonials__quote--author">@nombre-cliente</p>
             </Paper>
           </Grid>
           <Grid item xs={6} sm={3}>
             <Paper className={cls.paperTestimony}>
-              <p className="testimonials__quote">Testimonio #3</p>
+              <h4 className="testimonials__author">Tami Santos</h4>
+              <p className="testimonials__author--quote">
+                Mini Diverlibro para 2 niñas de 1 año
+              </p>
               <img
                 src={testimony3}
                 alt="Testimonio de clientes sobre Diverlibro"
@@ -191,12 +210,14 @@ function Home() {
                 title="Testimonio de clientes"
                 aria-label="Testimonio de clientes sobre Diverlibro"
               />
-              <p className="testimonials__quote--author">@nombre-cliente</p>
             </Paper>
           </Grid>
           <Grid item xs={6} sm={3}>
             <Paper className={cls.paperTestimony}>
-              <p className="testimonials__quote">Testimonio #4</p>
+              <h4 className="testimonials__author">Mandy Sánchez Taura</h4>
+              <p className="testimonials__author--quote">
+                Diverlibro y cuadro personalizado para niña de 4 años
+              </p>
               <img
                 src={testimony4}
                 alt="Testimonio de clientes sobre Diverlibro"
@@ -204,13 +225,15 @@ function Home() {
                 title="Testimonio de clientes"
                 aria-label="Testimonio de clientes sobre Diverlibro"
               />
-              <p className="testimonials__quote--author">@nombre-cliente</p>
             </Paper>
           </Grid>
         </Grid>
       </div>
       <div className="section who">
-        <h3>¿Quién está detrás de Diverlibros?</h3>
+        <h3>
+          ¿Quién está detrás de{" "}
+          <span className="fontDiverlibros">Diverlibros</span>?
+        </h3>
         <div className="who__container">
           <div>
             <img

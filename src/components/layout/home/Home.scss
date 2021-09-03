@@ -1,26 +1,35 @@
 .section {
-  padding: 48px 32px 96px 32px;
+  padding: 48px 32px 100px 32px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .products {
+  margin: 40px 40px 56px 40px;
+  padding-bottom: 48px;
+  border-radius: 50%;
+  border: 6px dotted #22c3a3;
   &__title {
     font-family: "Manjari", sans-serif;
-    font-size: 24px;
-    font-weight: bold;
+    color: #22c3a3;
+    font-size: 28px;
+    font-weight: bolder;
+    margin-block-end: 0;
   }
 
   &__description {
-    max-width: 50vw;
+    max-width: 80%;
+    font-size: 16px;
+    margin-block-end: 0;
   }
 
   &__img {
-    width: 160px;
-    height: auto;
+    width: 200px;
+    max-width: 80%;
+    height: 160px;
     object-fit: cover;
-    margin: 24px;
+    margin: 28px;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     border-radius: 10px;
@@ -29,24 +38,26 @@
 
 .testimonials {
   background-color: #dddddd;
-  &__quote {
+  &__author {
+    max-width: 80%;
     font-family: "Indie Flower", cursive;
     font-size: 24px;
-    &--author {
+    margin-block-end: 0;
+    &--quote {
+      max-width: 80%;
       font-family: "Indie Flower", cursive;
       font-size: 18px;
-      font-weight: 600;
-      font-style: italic;
     }
   }
   &__img {
-    width: 20vw;
-    height: auto;
-    object-fit: contain;
-    margin-right: 24px;
+    max-width: 20vw;
+    height: 100%;
+    object-fit: cover;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
   }
 }
 
