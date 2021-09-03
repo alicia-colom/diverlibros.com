@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Hero from "../hero/Hero";
 import { makeStyles, Divider, Grid, Paper } from "@material-ui/core";
 
@@ -25,28 +26,60 @@ function Home() {
           <Paper className={cls.paper}>
             <h4>DIVERLIBROS</h4>
             <p>Sensoriales, artesanales y personalizables al detalle</p>
-            <button>Ir a Diverlibros</button>
+            <Link to="/catalogo">
+              <a
+                name="link-diverlibros"
+                title="Ir a Diverlibros"
+                className="header__nav--button"
+              >
+                Ir a Diverlibros
+              </a>
+            </Link>
           </Paper>
         </Grid>
         <Grid item xs={6} sm={3}>
           <Paper className={cls.paper}>
             <h4>MINI-DIVERLIBROS</h4>
             <p>Pequeñas dosis de gran diversión</p>
-            <button>Ir a Mini-Diverlibros</button>
+            <Link to="/catalogo">
+              <a
+                name="link-mini-diverlibros"
+                title="Ir a Mini Diverlibros"
+                className="header__nav--button"
+              >
+                Ir a Mini-Diverlibros
+              </a>
+            </Link>
           </Paper>
         </Grid>
         <Grid item xs={6} sm={3}>
           <Paper className={cls.paper}>
             <h4>CALENDARIO O PANEL DE LOS BUENOS DÍAS</h4>
             <p>Un ritual de juego y aprendizaje todas las mañanas</p>
-            <button>Ir a Calendario</button>
+            <Link to="/catalogo">
+              <a
+                name="link-calendar"
+                title="Ir a Calendario"
+                className="header__nav--button"
+              >
+                Ir a Calendario
+              </a>
+            </Link>
           </Paper>
         </Grid>
         <Grid item xs={6} sm={3}>
           <Paper className={cls.paper}>
             <h4>CUADROS PERSONALIZADOS</h4>
             <p>Un recuerdo con su nombre y su motivo favorito</p>
-            <button>Ir a Cuadros</button>
+            <Link to="/catalogo">
+              <a
+                name="link-about"
+                title="Ir a Cuadros"
+                className="header__nav--button"
+              >
+                Ir a Cuadros
+              </a>
+            </Link>
           </Paper>
         </Grid>
       </Grid>
@@ -100,7 +133,15 @@ function Home() {
             están fomentando su creatividad, sus habilidades psicomotrices y
             más, todo mientras juegan. ¿Tú también quieres regalar diversión?
           </p>
-          <button>Sí, llévame al catálogo</button>
+          <Link to="/catalogo">
+            <a
+              name="link-catalog"
+              title="Ir a Catálogo"
+              className="header__nav--button"
+            >
+              Sí, llévame al catálogo
+            </a>
+          </Link>
         </div>
       </div>
     </>

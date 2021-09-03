@@ -80,7 +80,6 @@ const Form = () => {
 
   return (
     <>
-      <h2>Contacto</h2>
       <FormControl fullWidth={true}>
         <TextField
           required
