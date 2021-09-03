@@ -1,9 +1,56 @@
-.who {
-  width: 100%;
-  padding: 40px 32px 70px 32px;
+.section {
+  padding: 48px 32px 96px 32px;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.products {
+  &__title {
+    font-family: "Manjari", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  &__description {
+    max-width: 50vw;
+  }
+
+  &__img {
+    width: 160px;
+    height: auto;
+    object-fit: cover;
+    margin: 24px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+  }
+}
+
+.testimonials {
+  background-color: #dddddd;
+  &__quote {
+    font-family: "Indie Flower", cursive;
+    font-size: 24px;
+    &--author {
+      font-family: "Indie Flower", cursive;
+      font-size: 18px;
+      font-weight: 600;
+      font-style: italic;
+    }
+  }
+  &__img {
+    width: 20vw;
+    height: auto;
+    object-fit: contain;
+    margin-right: 24px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+  }
+}
+
+.who {
   background-color: #188f77;
   color: #fefefe;
 

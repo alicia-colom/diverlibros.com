@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Header.scss";
-import logo from "../../../assets/logo_diverlibro-nombre_1200x425.png";
+import logo from "../../../assets/logos/logo_diverlibro-nombre_1200x425.png";
 
 const Header = () => {
   return (
@@ -10,10 +10,10 @@ const Header = () => {
         <Link to="/">
           <img
             src={logo}
-            alt="Logo de Diveribros"
+            alt="Logo de Diverlibros"
             className="header__logo"
             title="Ir a inicio"
-            aria-label="Logotipo de Diveribros"
+            aria-label="Logotipo de Diverlibros"
           />
         </Link>
       </h1>

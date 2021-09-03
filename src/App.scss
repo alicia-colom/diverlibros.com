@@ -14,17 +14,18 @@
     display: flex;
     flex-direction: column;
   }
-  &__button {
-    padding: 16px 22px 12px 22px;
-    background-color: #d37762;
+}
+
+.button {
+  padding: 16px 22px 12px 22px;
+  background-color: #d37762;
+  color: #fefefe;
+  border-radius: 10px;
+  font-family: "Manjari", sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+  &:hover {
+    background-color: #40debf;
     color: #fefefe;
-    border-radius: 10px;
-    font-family: "Manjari", sans-serif;
-    font-weight: 900;
-    font-size: 24px;
-    &:hover {
-      background-color: #40debf;
-      color: #fefefe;
-    }
   }
 }

@@ -2,16 +2,42 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Hero from "../hero/Hero";
 import "./Home.scss";
-import { makeStyles, Divider, Grid, Paper } from "@material-ui/core";
-import fotoNuriaDominguez from "../../../assets/nuria-dominguez-perfil-diverlibro.jpg";
+import { makeStyles, Grid, Paper } from "@material-ui/core";
+import photoProductDiverlibro from "../../../assets/products/foto-producto-lorem-ipsum.jpg";
+import photoProductMiniDiverlibro from "../../../assets/products/foto-producto-lorem-ipsum.jpg";
+import photoProductCalendario from "../../../assets/products/foto-producto-lorem-ipsum.jpg";
+import photoProductCuadro from "../../../assets/products/foto-producto-lorem-ipsum.jpg";
+import testimony1 from "../../../assets/testimonials/testimonio-home-1.jpg";
+import testimony2 from "../../../assets/testimonials/testimonio-home-2.jpg";
+import testimony3 from "../../../assets/testimonials/testimonio-home-3.jpg";
+import testimony4 from "../../../assets/testimonials/testimonio-home-4.jpg";
+import testimony5 from "../../../assets/testimonials/testimonio-home-5.jpg";
+import testimony6 from "../../../assets/testimonials/testimonio-home-6.jpg";
+import testimony7 from "../../../assets/testimonials/testimonio-home-7.jpg";
+import testimony8 from "../../../assets/testimonials/testimonio-home-8.jpg";
+import photoNuriaDominguez from "../../../assets/nuria-dominguez-perfil-diverlibro.jpg";
 
 const useStyles = makeStyles((theme) => ({
   container: {
     flexGrow: 1,
-  },
-  paper: {
     padding: theme.spacing(2),
     textAlign: "center",
+  },
+  paperProduct: {
+    backgroundColor: "#40DEBF",
+    height: theme.spacing(60),
+    textAlign: "center",
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+  },
+  paperTestimony: {
+    backgroundColor: "transparent",
+    height: theme.spacing(60),
+    textAlign: "center",
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
   },
 }));
 
@@ -21,19 +47,29 @@ function Home() {
   return (
     <>
       <Hero />
-      <Divider />
-      <div className="products">
+      <div className="section products">
         <h3>Diverlibros es la marca con la que aprender jugando</h3>
         <Grid container spacing={3} className={cls.container}>
           <Grid item xs={6} sm={3}>
-            <Paper className={cls.paper}>
-              <h4>DIVERLIBROS</h4>
-              <p>Sensoriales, artesanales y personalizables al detalle</p>
+            <Paper className={cls.paperProduct}>
+              <h4 className="products__title">DIVERLIBROS</h4>
+              <p className="products__description">
+                Sensoriales, artesanales y personalizables al detalle
+              </p>
+              <Link to="/catalogo">
+                <img
+                  src={photoProductDiverlibro}
+                  alt="Producto Diverlibro"
+                  className="products__img"
+                  title="Ir a Diverlibros"
+                  aria-label="Imagen del producto Diverlibro de Diverlibro"
+                />
+              </Link>
               <Link to="/catalogo">
                 <a
                   name="link-diverlibros"
                   title="Ir a Diverlibros"
-                  className="main__button"
+                  className="button"
                 >
                   Ir a Diverlibros
                 </a>
@@ -41,14 +77,25 @@ function Home() {
             </Paper>
           </Grid>
           <Grid item xs={6} sm={3}>
-            <Paper className={cls.paper}>
-              <h4>MINI-DIVERLIBROS</h4>
-              <p>Pequeñas dosis de gran diversión</p>
+            <Paper className={cls.paperProduct}>
+              <h4 className="products__title">MINI-DIVERLIBROS</h4>
+              <p className="products__description">
+                Pequeñas dosis de gran diversión
+              </p>
+              <Link to="/catalogo">
+                <img
+                  src={photoProductMiniDiverlibro}
+                  alt="Producto Mini Diverlibros"
+                  className="products__img"
+                  title="Ir a Mini Diverlibros"
+                  aria-label="Imagen del producto Mini Diverlibros Diverlibro"
+                />
+              </Link>
               <Link to="/catalogo">
                 <a
                   name="link-mini-diverlibros"
                   title="Ir a Mini Diverlibros"
-                  className="main__button"
+                  className="button"
                 >
                   Ir a Mini-Diverlibros
                 </a>
@@ -56,14 +103,25 @@ function Home() {
             </Paper>
           </Grid>
           <Grid item xs={6} sm={3}>
-            <Paper className={cls.paper}>
-              <h4>CALENDARIO O PANEL DE LOS BUENOS DÍAS</h4>
-              <p>Un ritual de juego y aprendizaje todas las mañanas</p>
+            <Paper className={cls.paperProduct}>
+              <h4 className="products__title">CALENDARIO</h4>
+              <p className="products__description">
+                Un ritual de juego y aprendizaje todas las mañanas
+              </p>
+              <Link to="/catalogo">
+                <img
+                  src={photoProductCalendario}
+                  alt="Producto Calendario"
+                  className="products__img"
+                  title="Ir a Calendario"
+                  aria-label="Imagen del producto Calendario de Diverlibro"
+                />
+              </Link>
               <Link to="/catalogo">
                 <a
                   name="link-calendar"
                   title="Ir a Calendario"
-                  className="main__button"
+                  className="button"
                 >
                   Ir a Calendario
                 </a>
@@ -71,15 +129,22 @@ function Home() {
             </Paper>
           </Grid>
           <Grid item xs={6} sm={3}>
-            <Paper className={cls.paper}>
-              <h4>CUADROS PERSONALIZADOS</h4>
-              <p>Un recuerdo con su nombre y su motivo favorito</p>
+            <Paper className={cls.paperProduct}>
+              <h4 className="products__title">CUADROS</h4>
+              <p className="products__description">
+                Un recuerdo con su nombre y su motivo favorito
+              </p>
               <Link to="/catalogo">
-                <a
-                  name="link-about"
+                <img
+                  src={photoProductCuadro}
+                  alt="Producto Cuadros"
+                  className="products__img"
                   title="Ir a Cuadros"
-                  className="main__button"
-                >
+                  aria-label="Imagen del producto Cuadros de Diverlibro"
+                />
+              </Link>
+              <Link to="/catalogo">
+                <a name="link-about" title="Ir a Cuadros" className="button">
                   Ir a Cuadros
                 </a>
               </Link>
@@ -87,47 +152,73 @@ function Home() {
           </Grid>
         </Grid>
       </div>
-      <Divider />
-      <div className="testimonies">
+      <div className="section testimonials">
         <h3>Estas son algunas de las impresiones que deja Diverlibros</h3>
-        <p>
-          Aquí añadir los pantallazos de testimonios, están en la carpeta con
-          nombre “home-testimonio”, evitar los sliders
-        </p>
         <Grid container spacing={3} className={cls.container}>
           <Grid item xs={6} sm={3}>
-            <Paper className={cls.paper}>
-              <p>Testimonio #1</p>
+            <Paper className={cls.paperTestimony}>
+              <p className="testimonials__quote">Testimonio #1</p>
+              <img
+                src={testimony1}
+                alt="Testimonio de clientes sobre Diverlibro"
+                className="testimonials__img"
+                title="Testimonio de clientes"
+                aria-label="Testimonio de clientes sobre Diverlibro"
+              />
+              <p className="testimonials__quote--author">@nombre-cliente</p>
             </Paper>
           </Grid>
           <Grid item xs={6} sm={3}>
-            <Paper className={cls.paper}>
-              <p>Testimonio #2</p>
+            <Paper className={cls.paperTestimony}>
+              <p className="testimonials__quote">Testimonio #2</p>
+              <img
+                src={testimony2}
+                alt="Testimonio de clientes sobre Diverlibro"
+                className="testimonials__img"
+                title="Testimonio de clientes"
+                aria-label="Testimonio de clientes sobre Diverlibro"
+              />
+              <p className="testimonials__quote--author">@nombre-cliente</p>
             </Paper>
           </Grid>
           <Grid item xs={6} sm={3}>
-            <Paper className={cls.paper}>
-              <p>Testimonio #3</p>
+            <Paper className={cls.paperTestimony}>
+              <p className="testimonials__quote">Testimonio #3</p>
+              <img
+                src={testimony3}
+                alt="Testimonio de clientes sobre Diverlibro"
+                className="testimonials__img"
+                title="Testimonio de clientes"
+                aria-label="Testimonio de clientes sobre Diverlibro"
+              />
+              <p className="testimonials__quote--author">@nombre-cliente</p>
             </Paper>
           </Grid>
           <Grid item xs={6} sm={3}>
-            <Paper className={cls.paper}>
-              <p>Testimonio #4</p>
+            <Paper className={cls.paperTestimony}>
+              <p className="testimonials__quote">Testimonio #4</p>
+              <img
+                src={testimony4}
+                alt="Testimonio de clientes sobre Diverlibro"
+                className="testimonials__img"
+                title="Testimonio de clientes"
+                aria-label="Testimonio de clientes sobre Diverlibro"
+              />
+              <p className="testimonials__quote--author">@nombre-cliente</p>
             </Paper>
           </Grid>
         </Grid>
       </div>
-      <Divider />
-      <div className="who">
+      <div className="section who">
         <h3>¿Quién está detrás de Diverlibros?</h3>
         <div className="who__container">
           <div>
             <img
-              src={fotoNuriaDominguez}
+              src={photoNuriaDominguez}
               alt="Nuria Domínguez - Creadora de Diverlibro"
               className="who__photo"
               title="Foto de Nuria Domínguez"
-              aria-label="Logotipo de Diveribros"
+              aria-label="Logotipo de Diverlibros"
             />
           </div>
           <p className="who__description">
@@ -168,7 +259,7 @@ function Home() {
           </p>
         </div>
         <Link to="/catalogo">
-          <a name="link-catalog" title="Ir a Catálogo" className="main__button">
+          <a name="link-catalog" title="Ir a Catálogo" className="button">
             Sí, llévame al catálogo
           </a>
         </Link>
