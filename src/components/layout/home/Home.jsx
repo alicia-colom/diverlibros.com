@@ -1,4 +1,5 @@
 import React from "react";
+import Hero from "../hero/Hero";
 import { makeStyles, Divider, Grid, Paper } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
@@ -16,6 +17,8 @@ function Home() {
 
   return (
     <>
+      <Hero />
+      <Divider />
       <h3>Diverlibros es la marca con la que aprender jugando</h3>
       <Grid container spacing={3} className={cls.container}>
         <Grid item xs={6} sm={3}>
