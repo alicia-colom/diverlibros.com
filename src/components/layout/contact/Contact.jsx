@@ -5,15 +5,62 @@ import Form from "../../forms/form";
 const Contact = () => {
   return (
     <>
-      <div className="contactContainer">
-        <h2>Contacto</h2>
-        <p>
-          Si quieres hacernos cualquier pregunta, comentario o sugerencia,
-          puedes hacerlo a través de este formulario, o por teléfono, WhatsApp o
-          email
-        </p>
-        <Form />
+      <h2>
+        <span className="fontDiverlibros">Contacto</span>
+      </h2>
+      <h3 className="contact__text--title">¿En qué puedo ayudarte?</h3>
+
+      <div className="contact__container">
+        <div className="contact__text">
+          <p className="contact__text--description">Estoy al otro lado si…</p>
+          <ul className="contact__list">
+            <li className="contact__list--item">
+              te preguntas cuál es el producto que más le gustará a tu peque
+            </li>
+            <li className="contact__list--item">
+              tienes dudas sobre qué libro se adapta mejor a su edad
+            </li>
+            <li className="contact__list--item">
+              o tienes cualquier otra pregunta
+            </li>
+            <li className="contact__list--item">
+              no sabes cómo elegir las actividades
+            </li>
+          </ul>
+          <p className="contact__text--description">
+            Si quieres hacernos cualquier pregunta, comentario o sugerencia,
+            puedes hacerlo rellenando este formulario, o por teléfono, WhatsApp
+            o email, y en el plazo de 24 hora y me pondré en contacto contigo.
+          </p>
+          <ul className="contact__list">
+            <li className="contact__list--item">
+              <span className="product__list--title">Teléfono:</span>+34
+              666777999
+            </li>
+            <li className="contact__list--item">
+              <span className="product__list--title">Email:</span>
+              diverlibro@gmail.com
+            </li>
+            <li className="contact__list--item">
+              <span className="product__list--title">Horario:</span>L - V, 10:00
+              a 14:00 y de 16:00 a 20:00
+            </li>
+          </ul>
+        </div>
+
+        <div className="contact__form">
+          <Form />
+        </div>
       </div>
+
+      <small className="contact__small">
+        Diverlibros será responsable por tus datos, se enviarán a
+        www.diverlibros.com para poder recoger las dudas sobre una posible
+        contratación. Este tratamiento se hace con base en diligencias
+        pre-contractuales. Podrás ejercer cualquier derecho que tengas
+        relacionado con la protección de tus datos según se describe en la
+        política de privacidad. (Enlace a política de privacidad).
+      </small>
     </>
   );
 };

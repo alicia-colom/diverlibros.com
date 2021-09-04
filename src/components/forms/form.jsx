@@ -83,12 +83,24 @@ const Form = () => {
       <FormControl fullWidth={true}>
         <TextField
           required
-          label="Full name"
+          label="Nombre completo"
           variant="filled"
           id="full-name"
           name="fullName"
           className="form-field"
           value={data.fullName}
+          onChange={handleChange}
+        />
+      </FormControl>
+      <FormControl fullWidth={true}>
+        <TextField
+          required
+          label="Teléfono"
+          variant="filled"
+          id="phone"
+          name="phone"
+          className="form-field"
+          value={data.phone}
           onChange={handleChange}
         />
       </FormControl>
@@ -107,7 +119,7 @@ const Form = () => {
       <FormControl fullWidth={true}>
         <TextField
           required
-          label="Message"
+          label="Escribe aquí tu mensaje..."
           variant="filled"
           name="message"
           multiline={true}

@@ -1,18 +1,18 @@
-.contact {
+.product {
   &__container {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     padding: 16px;
     overflow-y: hidden;
+  }
 
+  &__section {
     text-align: justify;
     margin: 16px;
   }
-
   &__text {
-    width: 45vw;
-
+    width: 40vw;
     &--title {
       font-family: "Manjari", sans-serif;
       color: #d37762;
@@ -23,28 +23,42 @@
     }
   }
 
-  &__form{
-    width: 35vw;
-    text-align: justify;
-    margin: 16px;
-  }
-
   &__list {
     padding: 20px 0 0 50px;
     font-family: "Manjari", sans-serif;
     color: #188f77;
-    &--item {
+
+    &--title {
       padding-right: 20px;
+    }
+    &--item {
       padding-bottom: 15px;
     }
   }
 
-  &__small {
-    width: 80vw;
+  &__order {
     align-self: center;
-    margin: 56px 0;
-    color: #727272;
-    font-size: 14px;
-    line-height: 18px;
+    text-align: center;
+    padding-bottom: 64px;
+    &--list {
+      padding-bottom: 32px;
+      text-align: left;
+    }
+  }
+}
+
+.slider {
+  width: 35vw;
+  height: 500px;
+  padding: 12px;
+  border: 4px solid #22c3a3;
+  border-radius: 10px;
+  background-color: #dddddd;
+
+  &__img {
+    width: 35vw;
+    height: auto;
+    max-height: 470px;
+    object-fit: scale-down;
   }
 }
