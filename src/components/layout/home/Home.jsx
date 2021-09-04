@@ -8,14 +8,14 @@ import photoProductMiniDiverlibro from "../../../assets/products/product-main-mi
 import photoProductCalendario from "../../../assets/products/product-main-calendario.jpg";
 import photoProductCuadro from "../../../assets/products/product-main-cuadro.jpg";
 
-import testimony1 from "../../../assets/testimonials/testimonio-home-1.jpg";
+// import testimony1 from "../../../assets/testimonials/testimonio-home-1.jpg";
 import testimony2 from "../../../assets/testimonials/testimonio-home-2.jpg";
 import testimony3 from "../../../assets/testimonials/testimonio-home-3.jpg";
 import testimony4 from "../../../assets/testimonials/testimonio-home-4.jpg";
-import testimony5 from "../../../assets/testimonials/testimonio-home-5.jpg";
-import testimony6 from "../../../assets/testimonials/testimonio-home-6.jpg";
-import testimony7 from "../../../assets/testimonials/testimonio-home-7.jpg";
-import testimony8 from "../../../assets/testimonials/testimonio-home-8.jpg";
+//import testimony5 from "../../../assets/testimonials/testimonio-home-5.jpg";
+//import testimony6 from "../../../assets/testimonials/testimonio-home-6.jpg";
+//import testimony7 from "../../../assets/testimonials/testimonio-home-7.jpg";
+//import testimony8 from "../../../assets/testimonials/testimonio-home-8.jpg";
 import testimony9 from "../../../assets/testimonials/testimonio-home-9.jpg";
 
 import photoNuriaDominguez from "../../../assets/nuria-dominguez-perfil-diverlibro.jpg";

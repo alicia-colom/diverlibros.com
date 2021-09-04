@@ -69,11 +69,11 @@ const Form = () => {
           }, 3000);
         }
       })
-      .catch((err) => {
+      .catch((/*err*/) => {
         setData({
           ...data,
           buttonText: "Ha ocurrido un error",
-          err: "fail",
+          // err: "fail",
         });
       });
   };
