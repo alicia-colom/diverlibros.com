@@ -4,7 +4,7 @@ import "./App.scss";
 import Header from "./components/layout/header/Header";
 import Home from "./components/layout/home/Home";
 import AboutUs from "./components/layout/aboutUs/AboutUs";
-import Catalog from "./components/layout/catalog/Catalog";
+import Catalog from "./components/layout/catalog/CatalogPage";
 import ProductDiverlibro from "./components/layout/catalog/productDiverlibro/ProductDiverlibro";
 import ProductMiniDiverlibro from "./components/layout/catalog/productMiniDiverlibro/ProductMiniDiverlibro";
 import ProductCalendario from "./components/layout/catalog/productCalendario/ProductCalendario";

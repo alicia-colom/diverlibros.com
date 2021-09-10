@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Hero from "../hero/Hero";
-import CatalogList from "../catalog/catalogList/CatalogList";
+import CatalogList from "../catalog/CatalogList";
 import "./Home.scss";
 import { makeStyles, Grid, Paper } from "@material-ui/core";
 

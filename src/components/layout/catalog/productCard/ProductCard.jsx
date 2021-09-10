@@ -22,13 +22,13 @@ const ProductCard = (props) => {
 
   return (
     <Paper className={cls.paperProduct}>
-      <h4 className="product__title">{props.name}</h4>
-      <p className="product__description">{props.description}</p>
+      <h4 className="productCard__title">{props.name}</h4>
+      <p className="productCard__description">{props.description}</p>
       <Link to={props.path}>
         <img
           src={props.image}
           alt={"Producto " + props.name}
-          className="product__img"
+          className="productCard__img"
           title={"Ir a " + props.name}
           aria-label={"Imagen del producto " + props.name + " de Diverlibro"}
         />

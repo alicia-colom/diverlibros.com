@@ -1,11 +1,11 @@
 import React from "react";
-import ProductCard from "../productCard/ProductCard";
+import ProductCard from "./productCard/ProductCard";
 import "./CatalogList.scss";
 
-import photoProductDiverlibro from "../../../../assets/products/product-main-diverlibro.jpg";
-import photoProductMiniDiverlibro from "../../../../assets/products/product-main-minidiverlibro.jpg";
-import photoProductCalendario from "../../../../assets/products/product-main-calendario.jpg";
-import photoProductCuadro from "../../../../assets/products/product-main-cuadro.jpg";
+import photoProductDiverlibro from "../../../assets/products/product-main-diverlibro.jpg";
+import photoProductMiniDiverlibro from "../../../assets/products/product-main-minidiverlibro.jpg";
+import photoProductCalendario from "../../../assets/products/product-main-calendario.jpg";
+import photoProductCuadro from "../../../assets/products/product-main-cuadro.jpg";
 
 function CatalogList() {
   const productDetails = [

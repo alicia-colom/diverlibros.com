@@ -1,0 +1,43 @@
+.catalogContainer {
+  padding: 2rem 0 5rem 0;
+  flex-direction: row;
+  @media all and (max-width: 620px) {
+    padding: 0 0 3rem 0;
+  }
+}
+
+.title {
+  line-height: 2.2rem;
+}
+
+.quotes {
+  padding: 5rem;
+  background-color: #dddddd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @media all and (max-width: 620px) {
+    padding: 1rem;
+    background-color: #188f77;
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto-fit);
+    grid-column-gap: 6rem;
+    grid-row-gap: 2.5rem;
+    @media all and (max-width: 1000px) {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(4, auto-fit);
+      grid-column-gap: 2rem;
+      grid-row-gap: 2rem;
+    }
+
+    &--item {
+      padding: 0;
+      margin: 0;
+    }
+  }
+}
