@@ -10,17 +10,17 @@ import photoProductCuadro from "../../../assets/products/product-main-cuadro.jpg
 const useStyles = makeStyles((theme) => ({
   container: {
     flexGrow: 1,
-    padding: theme.spacing(2),
+    padding: "0.8rem",
     textAlign: "center",
   },
   paperProduct: {
     backgroundColor: "#dddddd",
-    height: theme.spacing(53),
+    height: "22rem",
     textAlign: "center",
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
-    borderRadius: "20px",
+    borderRadius: "1rem",
   },
 }));
 
@@ -36,7 +36,7 @@ const Catalog = () => {
             <p className="products__description">
               Sensoriales, artesanales y personalizables al detalle
             </p>
-            <Link to="/catalogo/diverlibro">
+            <Link to="/catalogo">
               <img
                 src={photoProductDiverlibro}
                 alt="Producto Diverlibro"
@@ -45,7 +45,7 @@ const Catalog = () => {
                 aria-label="Imagen del producto Diverlibro de Diverlibro"
               />
             </Link>
-            <Link to="/catalogo/diverlibro">
+            <Link to="/catalogo">
               <a
                 name="link-diverlibros"
                 title="Ir a Diverlibros"
@@ -56,14 +56,13 @@ const Catalog = () => {
             </Link>
           </Paper>
         </Grid>
-
         <Grid item xs={6} sm={3}>
           <Paper className={cls.paperProduct}>
             <h4 className="products__title">MINI-DIVERLIBROS</h4>
             <p className="products__description">
               Pequeñas dosis de con la misma gran diversión
             </p>
-            <Link to="/catalogo/mini-diverlibro">
+            <Link to="/catalogo">
               <img
                 src={photoProductMiniDiverlibro}
                 alt="Producto Mini Diverlibros"
@@ -72,7 +71,7 @@ const Catalog = () => {
                 aria-label="Imagen del producto Mini Diverlibros Diverlibro"
               />
             </Link>
-            <Link to="/catalogo/mini-diverlibro">
+            <Link to="/catalogo">
               <a
                 name="link-mini-diverlibros"
                 title="Ir a Mini Diverlibros"
@@ -83,14 +82,13 @@ const Catalog = () => {
             </Link>
           </Paper>
         </Grid>
-
         <Grid item xs={6} sm={3}>
           <Paper className={cls.paperProduct}>
             <h4 className="products__title">CALENDARIO</h4>
             <p className="products__description">
               Un ritual de juego y aprendizaje todas las mañanas
             </p>
-            <Link to="/catalogo/calendario">
+            <Link to="/catalogo">
               <img
                 src={photoProductCalendario}
                 alt="Producto Calendario"
@@ -99,7 +97,7 @@ const Catalog = () => {
                 aria-label="Imagen del producto Calendario de Diverlibro"
               />
             </Link>
-            <Link to="/catalogo/calendario">
+            <Link to="/catalogo">
               <a
                 name="link-calendar"
                 title="Ir a Calendario"
@@ -110,14 +108,13 @@ const Catalog = () => {
             </Link>
           </Paper>
         </Grid>
-
         <Grid item xs={6} sm={3}>
           <Paper className={cls.paperProduct}>
             <h4 className="products__title">CUADROS</h4>
             <p className="products__description">
               Un recuerdo con su nombre y su motivo favorito
             </p>
-            <Link to="/catalogo/cuadro">
+            <Link to="/catalogo">
               <img
                 src={photoProductCuadro}
                 alt="Producto Cuadros"
@@ -126,7 +123,7 @@ const Catalog = () => {
                 aria-label="Imagen del producto Cuadros de Diverlibro"
               />
             </Link>
-            <Link to="/catalogo/cuadro">
+            <Link to="/catalogo">
               <a name="link-about" title="Ir a Cuadros" className="button">
                 Ir a Cuadros
               </a>

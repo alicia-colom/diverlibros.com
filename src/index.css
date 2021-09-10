@@ -7,6 +7,7 @@ body {
   margin: 0px;
   padding: 0px;
   max-width: 100%;
+  line-height: 1.5rem;
   overflow-x: hidden;
   font-family: -apple-system, BlinkMacSystemFont, "Open Sans", "Manjari",
     "Indie Flower", "Roboto", "Segoe UI", "Oxygen", "Ubuntu", "Cantarell",
