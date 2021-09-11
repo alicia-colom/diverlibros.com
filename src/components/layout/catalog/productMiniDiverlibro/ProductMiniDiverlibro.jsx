@@ -228,7 +228,7 @@ const ProductMiniDiverlibro = () => {
             </Table>
           </TableContainer>
 
-          <Link to={"/catalogo/actividades"}>
+          <Link to="/catalogo/actividades">
             <a
               name="link-actividades"
               title="Ir a actividades"
@@ -256,8 +256,8 @@ const ProductMiniDiverlibro = () => {
             <small>
               * ¿Quieres un libro sensorial aún más personalizado? Entonces
               probablemente te interese echar un vistazo a los{" "}
-              <Link to="/contacto">
-                <a name="link-contact" title="Ir a Contacto">
+              <Link to="/catalogo/diverlibro">
+                <a name="link-diverlibro" title="Ir a Diverlibro">
                   <strong> Diverlibros</strong>
                 </a>
               </Link>

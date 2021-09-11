@@ -288,7 +288,7 @@ const ProductDiverlibro = () => {
             </Table>
           </TableContainer>
 
-          <Link to={"/catalogo/actividades"}>
+          <Link to="/catalogo/actividades">
             <a
               name="link-actividades"
               title="Ir a actividades"
@@ -332,8 +332,8 @@ const ProductDiverlibro = () => {
               detalle. Por eso necesito entre 2 y 3 semanas para elaborar tu
               libro y que quede perfecto. ¿No puedes esperar tanto? Echa un
               vistazo a los{" "}
-              <Link to="/contacto">
-                <a name="link-contact" title="Ir a Contacto">
+              <Link to="/catalogo/mini-diverlibro">
+                <a name="link-minidiverlibro" title="Ir a Mini Diverlibro">
                   <strong> Mini Diverlibros</strong>
                 </a>
               </Link>{" "}
