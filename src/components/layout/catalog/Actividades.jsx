@@ -6,16 +6,6 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import {
-  Divider,
-  Paper,
-  Table,
-  TableBody,
-  TableCell,
-  TableContainer,
-  TableRow,
-} from "@material-ui/core";
-
 import actividad6meses18meses1 from "../../../assets/products/actividades/6-18-meses/6-18-meses-actividad-1.jpg";
 import actividad6meses18meses2 from "../../../assets/products/actividades/6-18-meses/6-18-meses-actividad-2.jpg";
 import actividad6meses18meses3 from "../../../assets/products/actividades/6-18-meses/6-18-meses-actividad-3.jpg";

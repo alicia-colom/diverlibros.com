@@ -7,7 +7,6 @@ import "slick-carousel/slick/slick-theme.css";
 
 import {
   Divider,
-  Paper,
   Table,
   TableBody,
   TableCell,
