@@ -1,9 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "../Product.scss";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "../Product.scss";
+
+import {
+  Divider,
+  Paper,
+  Table,
+  TableBody,
+  TableCell,
+  TableContainer,
+  TableRow,
+} from "@material-ui/core";
 
 import cuadro1 from "../../../../assets/products/cuadros/foto-cuadro-personalizado-1.jpg";
 import cuadro2 from "../../../../assets/products/cuadros/foto-cuadro-personalizado-2.jpg";
@@ -44,106 +54,108 @@ const ProductCuadro = () => {
       </h2>
 
       <div className="product__container">
-        <Slider {...settings} className="product__section slider">
-          <div>
-            <img
-              src={cuadro1}
-              alt="Foto de cuadro personalizado"
-              className="slider__img"
-            />
-          </div>
-          <div>
-            <img
-              src={cuadro2}
-              alt="Foto de cuadro personalizado"
-              className="slider__img"
-            />
-          </div>
-          <div>
-            <img
-              src={cuadro3}
-              alt="Foto de cuadro personalizado"
-              className="slider__img"
-            />
-          </div>
-          <div>
-            <img
-              src={cuadro4}
-              alt="Foto de cuadro personalizado"
-              className="slider__img"
-            />
-          </div>
-          <div>
-            <img
-              src={cuadro5}
-              alt="Foto de cuadro personalizado"
-              className="slider__img"
-            />
-          </div>
-          <div>
-            <img
-              src={cuadro6}
-              alt="Foto de cuadro personalizado"
-              className="slider__img"
-            />
-          </div>
-          <div>
-            <img
-              src={cuadro7}
-              alt="Foto de cuadro personalizado"
-              className="slider__img"
-            />
-          </div>
-          <div>
-            <img
-              src={cuadro8}
-              alt="Foto de cuadro personalizado"
-              className="slider__img"
-            />
-          </div>
-          <div>
-            <img
-              src={cuadro9}
-              alt="Foto de cuadro personalizado"
-              className="slider__img"
-            />
-          </div>
-          <div>
-            <img
-              src={cuadro10}
-              alt="Foto de cuadro personalizado"
-              className="slider__img"
-            />
-          </div>
-          <div>
-            <img
-              src={cuadro11}
-              alt="Foto de cuadro personalizado"
-              className="slider__img"
-            />
-          </div>
-          <div>
-            <img
-              src={cuadro12}
-              alt="Foto de cuadro personalizado"
-              className="slider__img"
-            />
-          </div>
-          <div>
-            <img
-              src={cuadro13}
-              alt="Foto de cuadro personalizado"
-              className="slider__img"
-            />
-          </div>
-          <div>
-            <img
-              src={cuadro14}
-              alt="Foto de cuadro personalizado"
-              className="slider__img"
-            />
-          </div>
-        </Slider>
+        <div className="product__section">
+          <Slider {...settings} className="product__section slider">
+            <div>
+              <img
+                src={cuadro1}
+                alt="Foto de cuadro personalizado"
+                className="slider__img"
+              />
+            </div>
+            <div>
+              <img
+                src={cuadro2}
+                alt="Foto de cuadro personalizado"
+                className="slider__img"
+              />
+            </div>
+            <div>
+              <img
+                src={cuadro3}
+                alt="Foto de cuadro personalizado"
+                className="slider__img"
+              />
+            </div>
+            <div>
+              <img
+                src={cuadro4}
+                alt="Foto de cuadro personalizado"
+                className="slider__img"
+              />
+            </div>
+            <div>
+              <img
+                src={cuadro5}
+                alt="Foto de cuadro personalizado"
+                className="slider__img"
+              />
+            </div>
+            <div>
+              <img
+                src={cuadro6}
+                alt="Foto de cuadro personalizado"
+                className="slider__img"
+              />
+            </div>
+            <div>
+              <img
+                src={cuadro7}
+                alt="Foto de cuadro personalizado"
+                className="slider__img"
+              />
+            </div>
+            <div>
+              <img
+                src={cuadro8}
+                alt="Foto de cuadro personalizado"
+                className="slider__img"
+              />
+            </div>
+            <div>
+              <img
+                src={cuadro9}
+                alt="Foto de cuadro personalizado"
+                className="slider__img"
+              />
+            </div>
+            <div>
+              <img
+                src={cuadro10}
+                alt="Foto de cuadro personalizado"
+                className="slider__img"
+              />
+            </div>
+            <div>
+              <img
+                src={cuadro11}
+                alt="Foto de cuadro personalizado"
+                className="slider__img"
+              />
+            </div>
+            <div>
+              <img
+                src={cuadro12}
+                alt="Foto de cuadro personalizado"
+                className="slider__img"
+              />
+            </div>
+            <div>
+              <img
+                src={cuadro13}
+                alt="Foto de cuadro personalizado"
+                className="slider__img"
+              />
+            </div>
+            <div>
+              <img
+                src={cuadro14}
+                alt="Foto de cuadro personalizado"
+                className="slider__img"
+              />
+            </div>
+          </Slider>
+        </div>
 
         <div className="product__section">
           <div className="product__text">
@@ -159,22 +171,33 @@ const ProductCuadro = () => {
               que prefieras: su animal favorito, un objeto o un personaje.
             </p>
           </div>
-          <div>
-            <ul className="product__list">
-              <li className="product__list--item">
-                <span className="product__list--title">Tamaño:</span> 32x24 cm
-              </li>
-              <li className="product__list--item">
-                <span className="product__list--title">Precio:</span> 27 euros
-              </li>
-              <li className="product__list--item">
-                <span className="product__list--title">
-                  Tiempo de confección:
-                </span>
-                1 semana
-              </li>
-            </ul>
-          </div>
+          <br />
+          <TableContainer className="product__list">
+            <Table>
+              <TableBody>
+                <TableRow className="product__list--item">
+                  <TableCell component="th" scope="row">
+                    <span className="product__list--title">Tamaño:</span>
+                  </TableCell>
+                  <TableCell>32x24 cm</TableCell>
+                </TableRow>
+                <TableRow className="product__list--item">
+                  <TableCell component="th" scope="row">
+                    <span className="product__list--title">Precio:</span>
+                  </TableCell>
+                  <TableCell>27 euros</TableCell>
+                </TableRow>
+                <TableRow className="product__list--item">
+                  <TableCell component="th" scope="row">
+                    <span className="product__list--title">
+                      Tiempo de confección:
+                    </span>
+                  </TableCell>
+                  <TableCell>1 semana</TableCell>
+                </TableRow>
+              </TableBody>
+            </Table>
+          </TableContainer>
         </div>
       </div>
 

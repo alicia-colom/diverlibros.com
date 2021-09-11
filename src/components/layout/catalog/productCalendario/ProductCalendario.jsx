@@ -5,6 +5,16 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+import {
+  Divider,
+  Paper,
+  Table,
+  TableBody,
+  TableCell,
+  TableContainer,
+  TableRow,
+} from "@material-ui/core";
+
 import calendario1 from "../../../../assets/products/calendarios/foto-calendario-personalizado-1.jpg";
 import calendario2 from "../../../../assets/products/calendarios/foto-calendario-personalizado-2.jpg";
 import calendario3 from "../../../../assets/products/calendarios/foto-calendario-personalizado-3.jpg";
@@ -37,43 +47,78 @@ const ProductCalendario = () => {
       </h2>
 
       <div className="product__container">
-        <Slider {...settings} className="product__section slider">
-          <div>
-            <img
-              src={calendario1}
-              alt="Foto de calendario personalizado"
-              className="slider__img"
-            />
-          </div>
-          <div>
-            <img
-              src={calendario2}
-              alt="Foto de calendario personalizado"
-              className="slider__img"
-            />
-          </div>
-          <div>
-            <img
-              src={calendario3}
-              alt="Foto de calendario personalizado"
-              className="slider__img"
-            />
-          </div>
-          <div>
-            <img
-              src={calendario4}
-              alt="Foto de calendario personalizado"
-              className="slider__img"
-            />
-          </div>
-          <div>
-            <img
-              src={calendario5}
-              alt="Foto de calendario personalizado"
-              className="slider__img"
-            />
-          </div>
-        </Slider>
+        <div className="product__section">
+          <Slider {...settings} className="product__section slider">
+            <div>
+              <img
+                src={calendario1}
+                alt="Foto de calendario personalizado"
+                className="slider__img"
+              />
+            </div>
+            <div>
+              <img
+                src={calendario2}
+                alt="Foto de calendario personalizado"
+                className="slider__img"
+              />
+            </div>
+            <div>
+              <img
+                src={calendario3}
+                alt="Foto de calendario personalizado"
+                className="slider__img"
+              />
+            </div>
+            <div>
+              <img
+                src={calendario4}
+                alt="Foto de calendario personalizado"
+                className="slider__img"
+              />
+            </div>
+            <div>
+              <img
+                src={calendario5}
+                alt="Foto de calendario personalizado"
+                className="slider__img"
+              />
+            </div>
+          </Slider>
+          <br />
+          <TableContainer className="product__list">
+            <Table>
+              <TableBody>
+                <TableRow className="product__list--item">
+                  <TableCell component="th" scope="row">
+                    <span className="product__list--title">Edad:</span>
+                  </TableCell>
+                  <TableCell>aproximadamente de 3 a 7 años</TableCell>
+                </TableRow>
+                <TableRow className="product__list--item">
+                  <TableCell component="th" scope="row">
+                    <span className="product__list--title">Tamaño:</span>
+                  </TableCell>
+                  <TableCell>60x40 cm</TableCell>
+                </TableRow>
+                <TableRow className="product__list--item">
+                  <TableCell component="th" scope="row">
+                    <span className="product__list--title">Precio:</span>
+                  </TableCell>
+                  <TableCell>25 euros</TableCell>
+                </TableRow>
+                <TableRow className="product__list--item">
+                  <TableCell component="th" scope="row">
+                    <span className="product__list--title">
+                      Tiempo de confección:
+                    </span>
+                  </TableCell>
+                  <TableCell>1 semana</TableCell>
+                </TableRow>
+              </TableBody>
+            </Table>
+          </TableContainer>
+        </div>
 
         <div className="product__section">
           <div className="product__text">
@@ -114,25 +159,6 @@ const ProductCalendario = () => {
               centros educativos.
             </p>
           </div>
-
-          <ul className="product__list">
-            <li className="product__list--item">
-              <span className="product__list--title">Edad:</span>
-              aproximadamente de 3 a 7 años
-            </li>
-            <li className="product__list--item">
-              <span className="product__list--title">Tamaño:</span>60x40 cm
-            </li>
-            <li className="product__list--item">
-              <span className="product__list--title">Precio:</span>25 euros
-            </li>
-            <li className="product__list--item">
-              <span className="product__list--title">
-                Tiempo de confección:
-              </span>
-              1 semana
-            </li>
-          </ul>
         </div>
       </div>
 

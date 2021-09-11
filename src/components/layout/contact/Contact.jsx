@@ -15,16 +15,16 @@ const Contact = () => {
           <p className="contact__text--description">Estoy al otro lado si…</p>
           <ul className="contact__list">
             <li className="contact__list--item">
-              te preguntas cuál es el producto que más le gustará a tu peque
+              - te preguntas cuál es el producto que más le gustará a tu peque
             </li>
             <li className="contact__list--item">
-              tienes dudas sobre qué libro se adapta mejor a su edad
+              - tienes dudas sobre qué libro se adapta mejor a su edad
             </li>
             <li className="contact__list--item">
-              o tienes cualquier otra pregunta
+              - no sabes cómo elegir las actividades
             </li>
             <li className="contact__list--item">
-              no sabes cómo elegir las actividades
+              - o tienes cualquier otra pregunta
             </li>
           </ul>
           <p className="contact__text--description">
@@ -34,16 +34,12 @@ const Contact = () => {
           </p>
           <ul className="contact__list">
             <li className="contact__list--item">
-              <span className="product__list--title">Teléfono:</span>+34
-              666777999
+              <span className="product__list--title">Teléfono:</span>+34 685 903
+              366
             </li>
             <li className="contact__list--item">
               <span className="product__list--title">Email:</span>
               diverlibro@gmail.com
-            </li>
-            <li className="contact__list--item">
-              <span className="product__list--title">Horario:</span>L - V, 10:00
-              a 14:00 y de 16:00 a 20:00
             </li>
           </ul>
         </div>

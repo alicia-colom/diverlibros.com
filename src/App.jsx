@@ -5,6 +5,7 @@ import Header from "./components/layout/header/Header";
 import Home from "./components/layout/home/Home";
 import AboutUs from "./components/layout/aboutUs/AboutUs";
 import Catalog from "./components/layout/catalog/CatalogPage";
+import Actividades from "./components/layout/catalog/Actividades";
 import ProductDiverlibro from "./components/layout/catalog/productDiverlibro/ProductDiverlibro";
 import ProductMiniDiverlibro from "./components/layout/catalog/productMiniDiverlibro/ProductMiniDiverlibro";
 import ProductCalendario from "./components/layout/catalog/productCalendario/ProductCalendario";
@@ -39,6 +40,7 @@ function App() {
               component={ProductCalendario}
             />
             <Route exact path="/catalogo/cuadro" component={ProductCuadro} />
+            <Route exact path="/catalogo/actividades" component={Actividades} />
             <Route exact path="/contacto" component={Contact} />
             <Route exact path="/aviso-legal" component={LegalAdvice} />
           </Switch>

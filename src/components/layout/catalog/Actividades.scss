@@ -1,0 +1,44 @@
+.activities {
+  // padding: 5rem;
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: center;
+  // align-items: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, auto-fit);
+  grid-column-gap: 0;
+  grid-row-gap: 0;
+  @media all and (max-width: 620px) {
+    padding: 1rem;
+  }
+
+  &__title {
+    font-family: "Indie Flower", sans-serif;
+    color: #fefefe;
+    font-size: 2rem;
+    font-stretch: expanded;
+    padding: 0 3rem;
+    text-shadow: 1px 1px 2px #222222;
+  }
+}
+
+.act {
+  width: 100vw;
+  padding: 4rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
+.act1 {
+  background-color: #40debf;
+}
+.act2 {
+  flex-direction: row-reverse;
+  background-color: #22c3a3;
+}
+.act3 {
+  background-color: #188f77;
+}

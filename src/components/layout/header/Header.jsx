@@ -18,7 +18,7 @@ const Header = () => {
         </Link>
       </h1>
       <nav className="header__nav">
-        <Link to="/about">
+        {/* <Link to="/about">
           <a
             name="link-about"
             title="Ir a qué es Diverlibros"
@@ -26,7 +26,7 @@ const Header = () => {
           >
             Qué es Diverlibro
           </a>
-        </Link>
+        </Link> */}
         <Link to="/catalogo">
           <a
             name="link-catalog"
