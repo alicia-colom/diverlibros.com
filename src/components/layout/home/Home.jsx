@@ -15,7 +15,7 @@ import testimony4 from "../../../assets/testimonials/testimonio-home-4.jpg";
 //import testimony8 from "../../../assets/testimonials/testimonio-home-8.jpg";
 import testimony9 from "../../../assets/testimonials/testimonio-home-9.jpg";
 
-import photoNuriaDominguez from "../../../assets/nuria-dominguez-perfil-diverlibro.jpg";
+import photoNuriaDominguez from "../../../assets/nuria/nuria-dominguez-playa-diverlibro.jpg";
 
 const useStyles = makeStyles(() => ({
   container: {
@@ -62,9 +62,7 @@ function Home() {
           <Grid item xs={6} sm={3}>
             <Paper className={cls.paperTestimony}>
               <h4 className="testimonials__author">Sira Brun</h4>
-              <p className="testimonials__author--quote">
-                Diverlibros y calendario para 3 niños de entre 2 y 5 años
-              </p>
+              <p className="testimonials__author--quote">Cuadros para niños</p>
               <img
                 src={testimony9}
                 alt="Testimonio de clientes sobre Diverlibro"
@@ -76,9 +74,9 @@ function Home() {
           </Grid>
           <Grid item xs={6} sm={3}>
             <Paper className={cls.paperTestimony}>
-              <h4 className="testimonials__author">Mari Olivero Cobo</h4>
+              <h4 className="testimonials__author">Mari Olivero</h4>
               <p className="testimonials__author--quote">
-                Diverlibro para niño de 3 años
+                Diverlibro para 10 meses
               </p>
               <img
                 src={testimony2}
@@ -93,7 +91,7 @@ function Home() {
             <Paper className={cls.paperTestimony}>
               <h4 className="testimonials__author">Tami Santos</h4>
               <p className="testimonials__author--quote">
-                Mini Diverlibro para 2 niñas de 1 año
+                Dos Diverlibros para 1 y 4 años
               </p>
               <img
                 src={testimony3}
@@ -106,9 +104,9 @@ function Home() {
           </Grid>
           <Grid item xs={6} sm={3}>
             <Paper className={cls.paperTestimony}>
-              <h4 className="testimonials__author">Mandy Sánchez Taura</h4>
+              <h4 className="testimonials__author">Mandy Sánchez</h4>
               <p className="testimonials__author--quote">
-                Diverlibro y cuadro personalizado para niña de 4 años
+                Diverlibro para 18 meses
               </p>
               <img
                 src={testimony4}

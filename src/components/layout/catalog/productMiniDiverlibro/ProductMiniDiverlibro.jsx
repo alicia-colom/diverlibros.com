@@ -187,14 +187,14 @@ const ProductMiniDiverlibro = () => {
                     <span className="product__list--title">Edad:</span>
                   </TableCell>
                   <TableCell>
-                    diferentes modelos entre los 6 meses y los 5 años
+                    diferentes modelos entre los 6 meses y los 5 años aprox.
                   </TableCell>
                 </TableRow>
                 <TableRow className="product__list--item">
                   <TableCell component="th" scope="row">
                     <span className="product__list--title">Tamaño:</span>
                   </TableCell>
-                  <TableCell>20x18 cm</TableCell>
+                  <TableCell>20 x 18 cm</TableCell>
                 </TableRow>
                 <TableRow className="product__list--item">
                   <TableCell component="th" scope="row">
@@ -212,7 +212,7 @@ const ProductMiniDiverlibro = () => {
                     <span className="product__list--title">Precio:</span>
                   </TableCell>
                   <TableCell>
-                    25 euros (letras del nombre cosidas a la portada) <br /> 29
+                    28 euros (letras del nombre cosidas a la portada) <br /> 32
                     euros (letras móviles con velcro)
                   </TableCell>
                 </TableRow>

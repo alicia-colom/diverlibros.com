@@ -2,10 +2,10 @@ import React from "react";
 import ProductCard from "./productCard/ProductCard";
 import "./CatalogList.scss";
 
-import photoProductDiverlibro from "../../../assets/products/product-main-diverlibro.jpg";
-import photoProductMiniDiverlibro from "../../../assets/products/product-main-minidiverlibro.jpg";
-import photoProductCalendario from "../../../assets/products/product-main-calendario.jpg";
-import photoProductCuadro from "../../../assets/products/product-main-cuadro.jpg";
+import photoProductDiverlibro from "../../../assets/products/main-diverlibro.png";
+import photoProductMiniDiverlibro from "../../../assets/products/main-minidiverlibro.png";
+import photoProductCalendario from "../../../assets/products/main-calendario.png";
+import photoProductCuadro from "../../../assets/products/main-cuadro.png";
 
 function CatalogList() {
   const productDetails = [
@@ -21,7 +21,7 @@ function CatalogList() {
       name: "Mini Diverlibro",
       image: photoProductMiniDiverlibro,
       path: "/catalogo/mini-diverlibro",
-      description: "Pequeñas dosis de con la misma gran diversión",
+      description: "Pequeñas dosis con la misma gran diversión",
     },
     {
       id: "calendario",

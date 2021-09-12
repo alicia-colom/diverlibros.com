@@ -91,19 +91,19 @@ const ProductCalendario = () => {
                   <TableCell component="th" scope="row">
                     <span className="product__list--title">Edad:</span>
                   </TableCell>
-                  <TableCell>aproximadamente de 3 a 7 años</TableCell>
+                  <TableCell>de 3 a 7 años aprox.</TableCell>
                 </TableRow>
                 <TableRow className="product__list--item">
                   <TableCell component="th" scope="row">
                     <span className="product__list--title">Tamaño:</span>
                   </TableCell>
-                  <TableCell>60x40 cm</TableCell>
+                  <TableCell>60 x 40 cm</TableCell>
                 </TableRow>
                 <TableRow className="product__list--item">
                   <TableCell component="th" scope="row">
                     <span className="product__list--title">Precio:</span>
                   </TableCell>
-                  <TableCell>25 euros</TableCell>
+                  <TableCell>28 euros</TableCell>
                 </TableRow>
                 <TableRow className="product__list--item">
                   <TableCell component="th" scope="row">

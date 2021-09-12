@@ -28,17 +28,17 @@ const Contact = () => {
             </li>
           </ul>
           <p className="contact__text--description">
-            Si quieres hacernos cualquier pregunta, comentario o sugerencia,
+            Si quieres hacerme cualquier pregunta, comentario o sugerencia,
             puedes hacerlo rellenando este formulario, o por teléfono, WhatsApp
-            o email, y en el plazo de 24 hora y me pondré en contacto contigo.
+            o email, y en el plazo de 24 hora me pondré en contacto contigo.
           </p>
           <ul className="contact__list">
             <li className="contact__list--item">
-              <span className="product__list--title">Teléfono:</span>+34 685 903
-              366
+              <span className="product__list--title">Teléfono: </span> +34 685
+              903 366
             </li>
             <li className="contact__list--item">
-              <span className="product__list--title">Email:</span>
+              <span className="product__list--title">Email: </span>{" "}
               diverlibro@gmail.com
             </li>
           </ul>

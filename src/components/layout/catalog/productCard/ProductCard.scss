@@ -3,7 +3,7 @@
   &__title {
     font-family: "Manjari", sans-serif;
     color: #22c3a3;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     font-weight: bolder;
     margin-block-end: 0;
     text-transform: uppercase;
@@ -14,21 +14,20 @@
     max-width: 90%;
     font-size: 0.8rem;
     line-height: 1.1rem;
-    margin-block-end: 0;
   }
 
   &__img {
-    width: 10rem;
+    width: 9rem;
     max-width: 90%;
-    height: 8rem;
+    height: 9rem;
     object-fit: cover;
-    margin: 1.6rem 1rem;
+    margin-bottom: 1.6rem;
     -moz-border-radius: 0.5rem;
     -webkit-border-radius: 0.5rem;
     border-radius: 0.5rem;
 
     &:hover {
-      transform: rotate3d(1, 2, 3, 2deg);
+      transform: rotate3d(1, 2, 3, 4deg);
     }
   }
 }

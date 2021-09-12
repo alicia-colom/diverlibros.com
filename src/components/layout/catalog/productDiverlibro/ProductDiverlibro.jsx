@@ -259,13 +259,13 @@ const ProductDiverlibro = () => {
                   <TableCell component="th" scope="row">
                     <span className="product__list--title">Edad:</span>
                   </TableCell>
-                  <TableCell>adaptable de 6 meses a 5 años</TableCell>
+                  <TableCell>adaptable de 6 meses a 5 años aprox.</TableCell>
                 </TableRow>
                 <TableRow className="product__list--item">
                   <TableCell component="th" scope="row">
                     <span className="product__list--title">Tamaño:</span>
                   </TableCell>
-                  <TableCell>24x24 cm</TableCell>
+                  <TableCell>24 x 24 cm</TableCell>
                 </TableRow>
                 <TableRow className="product__list--item">
                   <TableCell component="th" scope="row">
@@ -351,33 +351,38 @@ const ProductDiverlibro = () => {
               <li>
                 <h5>ACABADO INDUSTRIAL</h5>
                 <p className="product__text--description">
-                  Páginas con terminaciones y acabados cosidos a máquina Cierre
-                  con solapa y velcro Encuadernación fija: páginas interiores
+                  Páginas con terminaciones y acabados cosidos a máquina. Cierre
+                  con solapa y velcro. Encuadernación fija: páginas interiores
                   cosidas a la portada 8 páginas con actividades más portada y
-                  contraportada El perfil clásico ......{" "}
+                  contraportada.
+                  <br />
+                  <i>El perfil clásico ............ </i>
                   <strong>40 euros</strong>
                 </p>
               </li>
               <li>
                 <h5>ACABADO ARTESANAL</h5>
                 <p className="product__text--description">
-                  Páginas con terminaciones y acabados cosidos a mano Cierre con
-                  solapa y velcro Encuadernación fija: páginas interiores
+                  Páginas con terminaciones y acabados cosidos a mano. Cierre
+                  con solapa y velcro. Encuadernación fija: páginas interiores
                   cosidas a la portada 8 páginas con actividades más portada y
-                  contraportada El perfil con punto de festón ......{" "}
+                  contraportada.
+                  <br />
+                  <i>El perfil con punto de festón ............ </i>
                   <strong>46 euros</strong>
                 </p>
               </li>
               <li>
                 <h5>ACABADO ANILLADO</h5>
                 <p className="product__text--description">
-                  Páginas con terminaciones y acabados cosidos a máquina Cierre
-                  con solapa y velcro Encuadernación móvil: páginas unidas por
+                  Páginas con terminaciones y acabados cosidos a máquina. Cierre
+                  con solapa y velcro. Encuadernación móvil: páginas unidas por
                   anillas, así puedes cambiar el orden de las actividades, sacar
                   alguna actividad para llevar en el bolso o añadir más páginas
                   con actividades en el futuro Mínimo de 4 páginas con
-                  actividades más portada y contraportada El Diverlibro que
-                  crece con el peque ......{" "}
+                  actividades más portada y contraportada.
+                  <br />
+                  <i>El Diverlibro que crece con el peque ............ </i>
                   <strong>a partir de 30 euros</strong>
                 </p>
               </li>

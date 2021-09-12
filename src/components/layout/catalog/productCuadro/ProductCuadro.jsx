@@ -177,13 +177,13 @@ const ProductCuadro = () => {
                   <TableCell component="th" scope="row">
                     <span className="product__list--title">Tamaño:</span>
                   </TableCell>
-                  <TableCell>32x24 cm</TableCell>
+                  <TableCell>32 x 24 cm</TableCell>
                 </TableRow>
                 <TableRow className="product__list--item">
                   <TableCell component="th" scope="row">
                     <span className="product__list--title">Precio:</span>
                   </TableCell>
-                  <TableCell>27 euros</TableCell>
+                  <TableCell>28 euros</TableCell>
                 </TableRow>
                 <TableRow className="product__list--item">
                   <TableCell component="th" scope="row">
