@@ -2,33 +2,61 @@
   &__container {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     padding: 0.8rem;
-    margin-bottom: 2.5rem;
-    overflow-y: hidden;
+    overflow: hidden;
+    @media all and (max-width: 900px) {
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+    }   
+     @media all and (max-width: 500px) {
+      padding: 0;
+    } 
   }
 
   &__section {
-    text-align: justify;
-    margin: 0.8rem;
     width: 40vw;
+    max-width: 500px;
+    margin: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: justify;
+    @media all and (max-width: 850px) {
+      width: 80vw;
+      max-width: none;
+    }   
+
+
   }
 
   &__text {
-    // width: 40vw;
     &--title {
       font-family: "Manjari", sans-serif;
       color: #d37762;
       font-size: 24px;
+      @media all and (max-width: 500px) {
+        text-align: left;
+      }
     }
     &--description {
       font-size: 0.8rem;
+      line-height: 165%;
+    }
+    &--small {
+      color: #727272;
+      font-size: 0.7rem;
+      line-height: 150%;
     }
   }
 
   &__list {
-    padding: 2.5rem 0 4rem 1rem;
-
+    padding: 4rem 1rem 1rem 1rem;
+    @media all and (max-width: 500px) {
+      padding: 1rem 0;
+    }
     &--title {
       font-family: "Manjari", sans-serif;
       color: #188f77;
@@ -40,17 +68,24 @@
   }
 
   &__buttonActividades {
-    margin-left: 2rem;
+    min-width: 300px;
     padding: 0.8rem 1.1rem 0.6rem 1.1rem;
+    margin: 3rem 0;
+    text-align: center;
+    border-radius: 0.5rem;
     background-color: #22c3a3;
     color: #fefefe;
-    border-radius: 0.5rem;
     font-family: "Manjari", sans-serif;
     font-weight: 900;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     &:hover {
       background-color: #d37762;
       color: #fefefe;
+    }
+    @media all and (max-width: 500px) {
+      font-size: 1.1rem;
+      padding: 0.6rem 0.8rem 0.4rem 0.8rem;
+ 
     }
   }
 
@@ -73,7 +108,8 @@
 
 .slider {
   width: 45vw;
-  min-width: 320px;
+  min-width: 300px;
+  max-width: 400px;
   height: auto;
   padding: 0.5rem;
   border: 3px solid #22c3a3;

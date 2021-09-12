@@ -286,16 +286,6 @@ const ProductDiverlibro = () => {
               </TableBody>
             </Table>
           </TableContainer>
-
-          <Link to="/catalogo/actividades">
-            <a
-              name="link-actividades"
-              title="Ir a actividades"
-              className="product__buttonActividades"
-            >
-              Ver todas las actividades
-            </a>
-          </Link>
         </div>
 
         <div className="product__section">
@@ -326,7 +316,7 @@ const ProductDiverlibro = () => {
             </p>
 
             <br />
-            <small>
+            <p className="product__text--small">
               * Los Diverlibros están 100% hechos a mano y personalizados al
               detalle. Por eso necesito entre 2 y 3 semanas para elaborar tu
               libro y que quede perfecto. ¿No puedes esperar tanto? Echa un
@@ -337,11 +327,21 @@ const ProductDiverlibro = () => {
                 </a>
               </Link>{" "}
               con actividades prediseñadas.
-            </small>
+            </p>
           </div>
 
-          <br />
-          <Divider />
+          <Link
+            to="/catalogo/actividades"
+            className="product__buttonActividades"
+          >
+            <a
+              name="link-actividades"
+              title="Ir a actividades"
+              // className="product__buttonActividades"
+            >
+              Ver todas las actividades
+            </a>
+          </Link>
 
           <div className="product__text">
             <h4 className="product__text--title">ACABADOS</h4>
