@@ -3,17 +3,20 @@
   display: flex;
   flex-direction: column;
   align-content: center;
-  
+
   &__header {
     margin-block-end: 2rem;
   }
 }
 
 .products {
-  margin: 0 3rem 3rem 3rem;
+  margin: calc(0.5rem + 5vw);
   padding: 1.8rem 0;
-  border-radius: 50%;
+  border-radius: 400px;
   border: 0.3rem dotted #22c3a3;
+  @media all and (min-width: 1078px) {
+    margin: 3rem;
+  }
 }
 
 .testimonials {
