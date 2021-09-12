@@ -19,32 +19,6 @@
   }
 }
 
-.testimonials {
-  background-color: #dddddd;
-  &__author {
-    max-width: 80%;
-    font-family: "Indie Flower", cursive;
-    font-size: 1.2rem;
-    margin-block-end: 0;
-    &--quote {
-      max-width: 94%;
-      font-family: "Indie Flower", cursive;
-      font-size: 0.8rem;
-      line-height: 1.1rem;
-    }
-  }
-  &__img {
-    max-width: 96%;
-    height: 100%;
-    object-fit: cover;
-    -moz-border-radius: 0.5rem;
-    -webkit-border-radius: 0.5rem;
-    border-radius: 0.5rem;
-    margin-top: 0.5rem;
-    margin-bottom: 2%;
-  }
-}
-
 .who {
   background-color: #188f77;
   color: #fefefe;

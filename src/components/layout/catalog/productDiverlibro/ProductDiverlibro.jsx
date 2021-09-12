@@ -1,9 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import AwesomeSlider from "react-awesome-slider";
+import "react-awesome-slider/dist/styles.css";
+import AwesomeSliderStyles from "react-awesome-slider/src/styles";
+import withAutoplay from "react-awesome-slider/dist/autoplay";
+import CoreStyles from "react-awesome-slider/src/core/styles.scss";
+import AnimationStyles from "react-awesome-slider/src/styled/fold-out-animation/fold-out-animation.scss";
+
 import "../Product.scss";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 
 import {
   Divider,
@@ -42,21 +46,7 @@ import diverlibroIndustrial6 from "../../../../assets/products/diverlibros/foto-
 import diverlibroIndustrial7 from "../../../../assets/products/diverlibros/foto-diverlibro-industrial-personalizado-7.jpg";
 
 const ProductDiverlibro = () => {
-  const settings = {
-    className: "slider variable-width",
-    dots: true,
-    infinite: true,
-    centerMode: true,
-    autoplay: true,
-    speed: 450,
-    autoplaySpeed: 4000,
-    cssEase: "linear",
-    pauseOnHover: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    variableWidth: true,
-    arrows: false,
-  };
+  const AutoplaySlider = withAutoplay(AwesomeSlider);
 
   return (
     <>
@@ -66,7 +56,16 @@ const ProductDiverlibro = () => {
 
       <div className="product__container">
         <div className="product__section">
-          <Slider {...settings} className="product__section slider">
+          <AutoplaySlider
+            className="slider"
+            animation="foldOutAnimation"
+            cssModule={[AwesomeSliderStyles, CoreStyles, AnimationStyles]}
+            bullets={true}
+            buttons={true}
+            play={true}
+            interval={5000}
+            cancelOnInteraction={false}
+          >
             <div>
               <img
                 src={diverlibroAnillas1}
@@ -249,7 +248,7 @@ const ProductDiverlibro = () => {
                 className="slider__img"
               />
             </div>
-          </Slider>
+          </AutoplaySlider>
 
           <br />
           <TableContainer className="product__list">
@@ -343,7 +342,6 @@ const ProductDiverlibro = () => {
 
           <br />
           <Divider />
-          <br />
 
           <div className="product__text">
             <h4 className="product__text--title">ACABADOS</h4>
@@ -387,6 +385,10 @@ const ProductDiverlibro = () => {
                 </p>
               </li>
             </ul>
+
+            <br />
+            <Divider />
+
             <h4 className="product__text--title">PORTADAS</h4>
             <ul>
               <li>

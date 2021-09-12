@@ -1,9 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import AwesomeSlider from "react-awesome-slider";
+import "react-awesome-slider/dist/styles.css";
+import AwesomeSliderStyles from "react-awesome-slider/src/styles";
+import withAutoplay from "react-awesome-slider/dist/autoplay";
+import CoreStyles from "react-awesome-slider/src/core/styles.scss";
+import AnimationStyles from "react-awesome-slider/src/styled/fold-out-animation/fold-out-animation.scss";
+
 import "../Product.scss";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 
 import {
   Table,
@@ -20,21 +24,7 @@ import calendario4 from "../../../../assets/products/calendarios/foto-calendario
 import calendario5 from "../../../../assets/products/calendarios/foto-calendario-personalizado-5.jpg";
 
 const ProductCalendario = () => {
-  const settings = {
-    className: "slider variable-width",
-    dots: true,
-    infinite: true,
-    centerMode: true,
-    autoplay: true,
-    speed: 450,
-    autoplaySpeed: 4000,
-    cssEase: "linear",
-    pauseOnHover: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    variableWidth: true,
-    arrows: false,
-  };
+  const AutoplaySlider = withAutoplay(AwesomeSlider);
 
   return (
     <>
@@ -46,7 +36,16 @@ const ProductCalendario = () => {
 
       <div className="product__container">
         <div className="product__section">
-          <Slider {...settings} className="product__section slider">
+          <AutoplaySlider
+            className="slider"
+            animation="foldOutAnimation"
+            cssModule={[AwesomeSliderStyles, CoreStyles, AnimationStyles]}
+            bullets={true}
+            buttons={true}
+            play={true}
+            interval={5000}
+            cancelOnInteraction={false}
+          >
             <div>
               <img
                 src={calendario1}
@@ -82,8 +81,10 @@ const ProductCalendario = () => {
                 className="slider__img"
               />
             </div>
-          </Slider>
+          </AutoplaySlider>
+
           <br />
+
           <TableContainer className="product__list">
             <Table>
               <TableBody>

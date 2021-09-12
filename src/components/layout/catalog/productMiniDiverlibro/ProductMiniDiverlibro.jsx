@@ -1,9 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import AwesomeSlider from "react-awesome-slider";
+import "react-awesome-slider/dist/styles.css";
+import AwesomeSliderStyles from "react-awesome-slider/src/styles";
+import withAutoplay from "react-awesome-slider/dist/autoplay";
+import CoreStyles from "react-awesome-slider/src/core/styles.scss";
+import AnimationStyles from "react-awesome-slider/src/styled/fold-out-animation/fold-out-animation.scss";
+
 import "../Product.scss";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 
 import {
   Divider,
@@ -33,21 +37,7 @@ import minidiverlibroSantJordi16 from "../../../../assets/products/mini-diverlib
 import minidiverlibroSantJordi17 from "../../../../assets/products/mini-diverlibros/foto-mini-diverlibro-sant-jordi-9.jpg";
 
 const ProductMiniDiverlibro = () => {
-  const settings = {
-    className: "slider variable-width",
-    dots: true,
-    infinite: true,
-    centerMode: true,
-    autoplay: true,
-    speed: 450,
-    autoplaySpeed: 4000,
-    cssEase: "linear",
-    pauseOnHover: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    variableWidth: true,
-    arrows: false,
-  };
+  const AutoplaySlider = withAutoplay(AwesomeSlider);
 
   return (
     <>
@@ -57,7 +47,16 @@ const ProductMiniDiverlibro = () => {
 
       <div className="product__container">
         <div className="product__section">
-          <Slider {...settings} className="product__section slider">
+          <AutoplaySlider
+            className="slider"
+            animation="foldOutAnimation"
+            cssModule={[AwesomeSliderStyles, CoreStyles, AnimationStyles]}
+            bullets={true}
+            buttons={true}
+            play={true}
+            interval={5000}
+            cancelOnInteraction={false}
+          >
             <div>
               <img
                 src={minidiverlibroDinos1}
@@ -177,8 +176,10 @@ const ProductMiniDiverlibro = () => {
                 className="slider__img"
               />
             </div>
-          </Slider>
+          </AutoplaySlider>
+
           <br />
+
           <TableContainer className="product__list">
             <Table>
               <TableBody>
@@ -195,17 +196,6 @@ const ProductMiniDiverlibro = () => {
                     <span className="product__list--title">Tamaño:</span>
                   </TableCell>
                   <TableCell>20 x 18 cm</TableCell>
-                </TableRow>
-                <TableRow className="product__list--item">
-                  <TableCell component="th" scope="row">
-                    <span className="product__list--title">
-                      Acabado industrial:
-                    </span>
-                  </TableCell>
-                  <TableCell>
-                    terminaciones cosidas a máquina, páginas interiores cosidas
-                    a la portada y cierre con solapa y velcro
-                  </TableCell>
                 </TableRow>
                 <TableRow className="product__list--item">
                   <TableCell component="th" scope="row">
@@ -268,7 +258,6 @@ const ProductMiniDiverlibro = () => {
 
           <br />
           <Divider />
-          <br />
 
           <div className="product__text">
             <h4 className="product__text--title">PORTADAS</h4>
@@ -288,6 +277,28 @@ const ProductMiniDiverlibro = () => {
                 </p>
               </li>
             </ul>
+
+            <br />
+            <Divider />
+
+            <h4 className="product__text--title">ACABADOS</h4>
+            <ul>
+              <li>
+                <h5>ACABADO INDUSTRIAL</h5>
+                <p className="product__text--description">
+                  Páginas con terminaciones y acabados cosidos a máquina. Cierre
+                  con solapa y velcro. Encuadernación fija: páginas interiores
+                  cosidas a la portada 8 páginas con actividades más portada y
+                  contraportada.
+                  <br />
+                  <i>El perfil clásico ............ </i>
+                  <strong>40 euros</strong>
+                </p>
+              </li>
+            </ul>
+
+            <br />
+            <Divider />
 
             <h4 className="product__text--title">MINI DIVERLIROS TEMÁTICOS</h4>
             <ul>
