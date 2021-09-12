@@ -2,49 +2,64 @@
   &__container {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    padding: 16px;
-    overflow-y: hidden;
-
+    justify-content: center;
+    overflow: hidden;
     text-align: justify;
-    margin: 16px;
+    @media all and (max-width: 900px) {
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+    }
+  }
+
+  &__section {
+    width: 40vw;
+    max-width: 500px;
+    margin: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: justify;
+    @media all and (max-width: 900px) {
+      width: 80vw;
+      max-width: none;
+    }
   }
 
   &__text {
-    width: 45vw;
-
     &--title {
       font-family: "Manjari", sans-serif;
       color: #d37762;
-      font-size: 24px;
+      font-size: 1.2rem;
     }
     &--description {
-      font-size: 16px;
+      font-size: 0.8rem;
     }
-  }
-
-  &__form{
-    width: 35vw;
-    text-align: justify;
-    margin: 16px;
   }
 
   &__list {
-    padding: 20px 0 0 50px;
+    padding: 1rem;
     font-family: "Manjari", sans-serif;
     color: #188f77;
     &--item {
-      padding-right: 20px;
-      padding-bottom: 15px;
+      padding-right: 1rem;
+      padding-bottom: 0.8rem;
+    }
+    &--title{
+      margin-right: 3rem;
+      color: #188f77;
     }
   }
 
   &__small {
     width: 80vw;
+    max-width: 40rem;
     align-self: center;
-    margin: 56px 0;
+    text-align: justify;
+    margin: 2.8rem 0;
     color: #727272;
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 0.6rem;
+    line-height: 150%;
   }
 }
