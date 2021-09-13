@@ -16,7 +16,9 @@ const useStyles = makeStyles(() => ({
   container: {
     flexGrow: 1,
     padding: "0.8rem",
-    textAlign: "center",
+    // textAlign: "center",
+    // alignItems: "top",
+    margin: "2rem 0",
   },
   paperTestimony: {
     //backgroundColor: "#727272",
@@ -29,22 +31,27 @@ const useStyles = makeStyles(() => ({
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
-    width: "20vw",
-    maxWidth: "13rem",
+    maxWidth: "14rem",
+    minWidth: "14rem",
   },
 }));
 
-function Home() {
+function Testimonials() {
   const cls = useStyles();
 
   return (
     <div className="section testimonials">
       <h3 className="section__header">
         Estas son algunas de las impresiones que deja{" "}
-        <span className="fontDiverlibros"> Diverlibros</span> :
+        <span className="fontDiverlibros"> Diverlibros</span>:
       </h3>
-      <Grid container spacing={3} className={cls.container}>
-        <Grid item xs={6} sm={3}>
+      <Grid
+        container
+        spacing={3}
+        alignContent="center"
+        className={cls.container}
+      >
+        <Grid item xs>
           <Paper className={cls.paperTestimony}>
             <h4 className="testimonials__author">Sira Brun</h4>
             <p className="testimonials__author--quote">Cuadros para niños</p>
@@ -57,7 +64,7 @@ function Home() {
             />
           </Paper>
         </Grid>
-        <Grid item xs={6} sm={3}>
+        <Grid item xs>
           <Paper className={cls.paperTestimony}>
             <h4 className="testimonials__author">Mari Olivero</h4>
             <p className="testimonials__author--quote">
@@ -72,7 +79,7 @@ function Home() {
             />
           </Paper>
         </Grid>
-        <Grid item xs={6} sm={3}>
+        <Grid item xs>
           <Paper className={cls.paperTestimony}>
             <h4 className="testimonials__author">Tami Santos</h4>
             <p className="testimonials__author--quote">
@@ -87,7 +94,7 @@ function Home() {
             />
           </Paper>
         </Grid>
-        <Grid item xs={6} sm={3}>
+        <Grid item xs>
           <Paper className={cls.paperTestimony}>
             <h4 className="testimonials__author">Mandy Sánchez</h4>
             <p className="testimonials__author--quote">
@@ -107,4 +114,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Testimonials;

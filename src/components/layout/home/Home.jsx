@@ -27,7 +27,7 @@ function Home() {
           <span className="fontDiverlibros">Diverlibros</span>?
         </h3>
         <div className="who__container">
-          <div>
+          <div className="who__section">
             <img
               src={photoNuriaDominguez}
               alt="Nuria Domínguez - Creadora de Diverlibro"
@@ -36,48 +36,56 @@ function Home() {
               aria-label="Logotipo de Diverlibros"
             />
           </div>
-          <p className="who__description">
-            Hola, me llamo <strong>Nuria Domínguez</strong> y soy la creadora,
-            diseñadora y artesana de <strong>Diverlibros</strong>.
-            <br />
-            <br />
-            Un día mis hijos llevaban más tiempo del que me gustaría viendo la
-            tele (quién no se ha visto en estas). Entonces me asaltó una
-            pregunta:{" "}
-            <i>
-              {" "}
-              “
-              <u>Cuando sean mayores, ¿qué recuerdos tendrán de su infancia?</u>
-              ”
-            </i>
-            <br />
-            Yo quería que sus recuerdos estuvieran llenos de momentos de juego
-            en familia, de historias inventadas y juguetes físicos, más allá de
-            las pantallas. Empecé a leer sobre pedagogía a través del juego y
-            sobre métodos alternativos de enseñanza y entretenimiento.
-            <br />
-            <br />
-            Este fue el punto de partida para crear esto que estás viendo ahora:
-            <br />
-            <strong>
-              Diverlibros, productos sensoriales que personalizo al gusto de
-              personas como tú, que quieren un regalo especial para sus peques.
-            </strong>
-            <br />
-            <br />
-            Libros, calendarios, cuadros personalizados… en total ya son más de
-            70 niños y niñas los que están fomentando su creatividad, sus
-            habilidades psicomotrices y más, todo mientras juegan.
-            <br />
-            <br />
-            <strong>¿Tú también quieres regalar diversión?</strong>
-          </p>
+          <div className="who__section">
+            <p className="who__description">
+              Hola, me llamo <strong>Nuria Domínguez</strong> y soy la creadora,
+              diseñadora y artesana de <strong>Diverlibros</strong>.
+              <br />
+              <br />
+              Un día mis hijos llevaban más tiempo del que me gustaría viendo la
+              tele (quién no se ha visto en estas). Entonces me asaltó una
+              pregunta:{" "}
+              <i>
+                {" "}
+                “
+                <u>
+                  Cuando sean mayores, ¿qué recuerdos tendrán de su infancia?
+                </u>
+                ”
+              </i>
+              <br />
+              Yo quería que sus recuerdos estuvieran llenos de momentos de juego
+              en familia, de historias inventadas y juguetes físicos, más allá
+              de las pantallas. Empecé a leer sobre pedagogía a través del juego
+              y sobre métodos alternativos de enseñanza y entretenimiento.
+              <br />
+              <br />
+              Este fue el punto de partida para crear esto que estás viendo
+              ahora:
+              <br />
+              <strong>
+                Diverlibros, productos sensoriales que personalizo al gusto de
+                personas como tú, que quieren un regalo especial para sus
+                peques.
+              </strong>
+              <br />
+              <br />
+              Libros, calendarios, cuadros personalizados… en total ya son más
+              de 70 niños y niñas los que están fomentando su creatividad, sus
+              habilidades psicomotrices y más, todo mientras juegan.
+            </p>
+          </div>
         </div>
-        <Link to="/catalogo">
-          <a name="link-catalog" title="Ir a Catálogo" className="button">
-            Sí, llévame al catálogo
-          </a>
-        </Link>
+        <div>
+          <strong>¿Tú también quieres regalar diversión?</strong>
+          <br />
+          <br />
+          <Link to="/catalogo">
+            <a name="link-catalog" title="Ir a Catálogo" className="button">
+              Sí, llévame al catálogo
+            </a>
+          </Link>
+        </div>
       </div>
     </>
   );

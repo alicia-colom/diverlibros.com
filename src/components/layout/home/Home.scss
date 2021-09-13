@@ -1,9 +1,8 @@
 .section {
-  padding: 4rem 8rem;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-
+  padding: 4rem 1rem;
+  @media all and (min-width: 1400px) {
+    padding: 3rem 0;
+  }
   &__header {
     margin-block-end: 2rem;
   }
@@ -23,24 +22,39 @@
   background-color: #188f77;
   color: #fefefe;
   &__container {
+    margin: 0 2rem;
     padding: 0.8rem;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+
+    @media all and (max-width: 1000px) {
+      flex-direction: column;
+      margin: 0;
+    }
   }
   &__photo {
     width: 15.5rem;
+    // min-width: 15rem;
     height: 17rem;
     object-fit: cover;
     -moz-border-radius: 20%;
     -webkit-border-radius: 20%;
     border-radius: 20%;
+    @media all and (max-width: 1000px) {
+      width: 13rem;
+      height: 14rem;
+    }
   }
   &__description {
-    margin: 0 2.5rem 2rem 4rem;
+    margin: 0 0 2rem 4rem;
     font-family: "Manjari", sans-serif;
     font-size: 0.9rem;
     line-height: 1.3rem;
     font-weight: 400;
     text-align: start;
+    @media all and (max-width: 1000px) {
+      margin: 2.5rem 0 2rem 0;
+    }
   }
 }
