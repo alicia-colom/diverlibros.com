@@ -235,25 +235,24 @@ const ProductMiniDiverlibro = () => {
               Pequeñas dosis de gran diversión
             </h3>
             <p className="product__text--description">
-              Este libro sensorial de fieltro tiene un diseño predefinido con
-              seis actividades fijas.
+              Este libro sensorial de fieltro consta de 6 páginas cosidas y
+              puedes elegir las actividades a incluir.
               <br />
               <br />
               Personalizo la portada con el nombre del niño o la niña y un
               dibujo, animal, personaje u objeto que tú elijas.
             </p>
 
-            <small>
-              * ¿Quieres un libro sensorial aún más personalizado? Entonces
+            <p className="product__text--small">
+              * ¿Quieres un libro sensorial con más opciones de acabados y
+              posibilidad de aumentar el número de páginas? Entonces
               probablemente te interese echar un vistazo a los{" "}
               <Link to="/catalogo/diverlibro">
                 <a name="link-diverlibro" title="Ir a Diverlibro">
                   <strong> Diverlibros</strong>
                 </a>
               </Link>
-              , con un diseño y actividades 100% personalizables a los gustos
-              del peque.
-            </small>
+            </p>
           </div>
 
           <br />

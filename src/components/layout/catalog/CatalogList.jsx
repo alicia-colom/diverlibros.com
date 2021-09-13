@@ -21,7 +21,7 @@ function CatalogList() {
       name: "Mini Diverlibro",
       image: photoProductMiniDiverlibro,
       path: "/catalogo/mini-diverlibro",
-      description: "Pequeñas dosis con la misma gran diversión",
+      description: "Pequeñas dosis con la misma diversión",
     },
     {
       id: "calendario",

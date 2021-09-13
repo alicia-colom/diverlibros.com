@@ -39,7 +39,9 @@ const Contact = () => {
             </li>
             <li className="contact__list--item">
               <span className="contact__list--title">Email: </span>{" "}
-              <a href="mailto:diverlibro@gmail.com">diverlibro@gmail.com</a>
+              <a href="mailto:librosfieltro@gmail.com">
+                librosfieltro@gmail.com
+              </a>
             </li>
           </ul>
         </div>

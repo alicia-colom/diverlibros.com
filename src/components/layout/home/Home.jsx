@@ -70,9 +70,10 @@ function Home() {
               </strong>
               <br />
               <br />
-              Libros, calendarios, cuadros personalizados… en total ya son más
-              de 70 niños y niñas los que están fomentando su creatividad, sus
-              habilidades psicomotrices y más, todo mientras juegan.
+              Libros, calendarios, cuadros personalizados… en estos casi dos
+              años de vida de Diverlibros, son más de 90 niños y niñas los que
+              están fomentando su creatividad, sus habilidades psicomotrices y
+              más, todo mientras juegan.
             </p>
           </div>
         </div>
