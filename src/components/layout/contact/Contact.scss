@@ -13,9 +13,9 @@
   }
 
   &__section {
-    width: 40vw;
-    max-width: 500px;
-    margin: 0.8rem;
+    width: 90vw;
+    max-width: 40rem;
+    // margin: 0.8rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -24,6 +24,9 @@
     @media all and (max-width: 900px) {
       width: 80vw;
       max-width: none;
+    }
+    @media all and (max-width: 600px) {
+      margin: 0;
     }
   }
 
@@ -42,13 +45,23 @@
     padding: 1rem;
     font-family: "Manjari", sans-serif;
     color: #188f77;
+    @media all and (max-width: 500px) {
+      padding: 0;
+    }
     &--item {
+      font-size: 0.8rem;
       padding-right: 1rem;
       padding-bottom: 0.8rem;
+      @media all and (max-width: 500px) {
+        line-height: 1.2rem;
+      }
     }
-    &--title{
+    &--title {
       margin-right: 3rem;
-      color: #188f77;
+      color: #188f77;     
+       @media all and (max-width: 370px) {
+        margin-right: 1rem;
+      }
     }
   }
 

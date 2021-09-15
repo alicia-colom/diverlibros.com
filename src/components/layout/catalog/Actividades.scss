@@ -1,35 +1,36 @@
 .activities {
-  // padding: 5rem;
-  // display: flex;
-  // flex-direction: column;
-  // justify-content: center;
-  // align-items: center;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(3, auto-fit);
-  grid-column-gap: 0;
-  grid-row-gap: 0;
-  @media all and (max-width: 620px) {
-    padding: 1rem;
-  }
+  padding-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
   &__title {
     font-family: "Indie Flower", sans-serif;
     color: #fefefe;
     font-size: 2rem;
     font-stretch: expanded;
-    padding: 0 3rem;
+    line-height: 120%;
+    padding: 0 2rem;
     text-shadow: 1px 1px 2px #222222;
+    @media all and (max-width: 768px) {
+      padding: 0 0.2rem;
+    }
   }
 }
 
 .act {
   width: 100vw;
-  padding: 4rem 0;
+  padding: 4.5rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
   text-align: center;
+  @media all and (max-width: 768px) {
+    padding: 2rem;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .act1 {
@@ -38,7 +39,48 @@
 .act2 {
   flex-direction: row-reverse;
   background-color: #22c3a3;
+  @media all and (max-width: 768px) {
+    flex-direction: column;
+  }
 }
+
 .act3 {
   background-color: #188f77;
+  @media all and (max-width: 768px) {
+    padding-bottom: 2rem;
+  }
+}
+
+.sliderAct {
+  width: 15.5rem;
+  min-width: 15.5rem;
+  max-width: 15.5rem;
+  height: 15.5rem;
+  min-height: 15.5rem;
+  max-height: 15.5rem;
+  padding: 0.5rem;
+  border: 3px solid #fefefe;
+  border-radius: 0.6rem;
+  --slider-height-percentage: 100%;
+  --slider-transition-duration: 550ms;
+  --organic-arrow-thickness: 0.1rem;
+  --organic-arrow-border-radius: 1.5rem;
+  --organic-arrow-height: 1.2rem;
+  --organic-arrow-color: #b76658;
+  --control-button-width: 10%;
+  --control-button-height: 25%;
+  --control-button-background: transparent;
+  --control-bullet-color: #dddddd;
+  --control-bullet-active-color: #b76658;
+
+  &__img {
+    // max-width: 15.5rem;
+    max-height: 15.5rem;
+    object-fit: fill;
+    background-color: transparent;
+  }
+}
+
+.awssld {
+  --content-background-color: none;
 }

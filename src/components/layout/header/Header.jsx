@@ -32,58 +32,59 @@ const Header = () => {
       </h1>
 
       <nav className="header__nav">
-        <Button
-          aria-controls="simple-menu"
-          aria-haspopup="true"
-          onClick={handleClick}
-        >
-          <MenuIcon htmlColor="#B76658" />
-        </Button>
-        <Menu
-          id="simple-menu"
-          anchorEl={anchorEl}
-          keepMounted
-          open={Boolean(anchorEl)}
-          onClose={handleClose}
-          className="header__nav--burger"
-        >
-          {/* <MenuItem onClick={handleClose}>
-            <Link to="/about">
-              <a
-                name="link-about"
-                title="Ir a qué es Diverlibros"
-                className="header__nav--button"
-              >
-                Qué es Diverlibro
-              </a>
-            </Link>
-          </MenuItem> */}
-          <MenuItem onClick={handleClose}>
-            <Link to="/catalogo">
-              <a
-                name="link-catalog"
-                title="Ir a catalogo"
-                className="header__nav--button"
-              >
-                Productos
-              </a>
-            </Link>
-          </MenuItem>
-          <MenuItem onClick={handleClose}>
-            <Link to="/contacto">
-              <a
-                name="link-contact"
-                title="Ir a contacto"
-                className="header__nav--button"
-              >
-                Contacto
-              </a>
-            </Link>
-          </MenuItem>
-        </Menu>
+        <div className="header__nav--burger">
+          <Button
+            aria-controls="simple-menu"
+            aria-haspopup="true"
+            onClick={handleClick}
+          >
+            <MenuIcon htmlColor="#B76658" />
+          </Button>
+          <Menu
+            id="simple-menu"
+            anchorEl={anchorEl}
+            keepMounted
+            open={Boolean(anchorEl)}
+            onClose={handleClose}
+          >
+            {/* <MenuItem onClick={handleClose}>
+              <Link to="/about">
+                <a
+                  name="link-about"
+                  title="Ir a qué es Diverlibros"
+                  className="header__nav--button"
+                >
+                  Qué es Diverlibro
+                </a>
+              </Link>
+            </MenuItem> */}
+            <MenuItem onClick={handleClose}>
+              <Link to="/catalogo">
+                <a
+                  name="link-catalog"
+                  title="Ir a catalogo"
+                  className="header__nav--button"
+                >
+                  Productos
+                </a>
+              </Link>
+            </MenuItem>
+            <MenuItem onClick={handleClose}>
+              <Link to="/contacto">
+                <a
+                  name="link-contact"
+                  title="Ir a contacto"
+                  className="header__nav--button"
+                >
+                  Contacto
+                </a>
+              </Link>
+            </MenuItem>
+          </Menu>
+        </div>
 
         <ul className="header__nav--basic">
-          <li className="header__nav--item">
+          {/* <li className="header__nav--item">
             <Link to="/about">
               <a
                 name="link-about"
@@ -93,7 +94,7 @@ const Header = () => {
                 Qué es Diverlibro
               </a>
             </Link>
-          </li>
+          </li> */}
           <li className="header__nav--item">
             <Link to="/catalogo">
               <a

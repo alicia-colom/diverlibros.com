@@ -57,7 +57,6 @@ const ProductDiverlibro = () => {
       <div className="product__container">
         <div className="product__section">
           <AutoplaySlider
-            className="slider"
             animation="foldOutAnimation"
             cssModule={[AwesomeSliderStyles, CoreStyles, AnimationStyles]}
             bullets={true}
@@ -65,6 +64,7 @@ const ProductDiverlibro = () => {
             play={true}
             interval={5000}
             cancelOnInteraction={false}
+            className="slider"
           >
             <div>
               <img

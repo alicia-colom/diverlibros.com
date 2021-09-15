@@ -1,6 +1,6 @@
 import React from "react";
 import "./Contact.scss";
-import Form from "../../forms/form";
+// import Form from "../../forms/form";
 
 const Contact = () => {
   return (
@@ -46,9 +46,9 @@ const Contact = () => {
           </ul>
         </div>
 
-        <div className="contact__section">
+        {/* <div className="contact__section">
           <Form />
-        </div>
+        </div> */}
       </div>
 
       <small className="contact__small">
