@@ -235,7 +235,7 @@ const ProductMiniDiverlibro = () => {
               Pequeñas dosis de gran diversión
             </h3>
             <p className="product__text--description">
-              Este libro sensorial de fieltro consta de 6 páginas cosidas y
+              Este libro sensorial de fieltro consta de 8 páginas cosidas y
               puedes elegir las actividades a incluir.
               <br />
               <br />
@@ -291,7 +291,7 @@ const ProductMiniDiverlibro = () => {
                   contraportada.
                   <br />
                   <i>El perfil clásico ............ </i>
-                  <strong>40 euros</strong>
+                  <strong>28 euros</strong>
                 </p>
               </li>
             </ul>
