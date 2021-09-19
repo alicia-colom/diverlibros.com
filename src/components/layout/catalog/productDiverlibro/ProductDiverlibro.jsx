@@ -413,7 +413,7 @@ const ProductDiverlibro = () => {
       <div className="product__order">
         <h3>¿Quieres pedir un libro sensorial personalizado?</h3>
         <ol className="product__order--list">
-          <li>Rellena el formulario con las características básicas. </li>
+          <li>Envíame un correo o WhatsApp con las características básicas que quieres</li>
           <li>
             En un máximo de 24 horas me pongo en contacto contigo para entrar en
             detalle sobre la personalización y diseñar juntos un Diverlibro

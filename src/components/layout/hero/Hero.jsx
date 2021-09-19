@@ -9,10 +9,10 @@ import AnimationStyles from "react-awesome-slider/src/styled/fold-out-animation/
 import "./Hero.scss";
 
 import logo from "../../../assets/logos/logo_diverlibro_1200x1200.png";
-import photoKids1 from "../../../assets/hero/niños-con-diverlibros-1.jpg";
-import photoKids2 from "../../../assets/hero/niños-con-diverlibros-2.jpg";
-import photoKids3 from "../../../assets/hero/niños-con-diverlibros-3.jpg";
-import photoKids4 from "../../../assets/hero/niños-con-diverlibros-4.jpg";
+import photoKids1 from "../../../assets/hero/ninos-con-diverlibros-1.jpg";
+import photoKids2 from "../../../assets/hero/ninos-con-diverlibros-2.jpg";
+import photoKids3 from "../../../assets/hero/ninos-con-diverlibros-3.jpg";
+import photoKids4 from "../../../assets/hero/ninos-con-diverlibros-4.jpg";
 
 const Hero = () => {
   const AutoplaySlider = withAutoplay(AwesomeSlider);

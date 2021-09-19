@@ -164,7 +164,7 @@ const ProductCalendario = () => {
       <div className="product__order">
         <h3>¿Quieres pedir un calendario?</h3>
         <ol className="product__order--list">
-          <li>Rellena el formulario</li>
+          <li>Contáctame por email, teléfono o WhatsApp</li>
           <li>
             En un máximo de 24 horas me pongo en contacto contigo para concretar
             los detalles de tu calendario

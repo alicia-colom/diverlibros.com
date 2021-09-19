@@ -235,7 +235,7 @@ const ProductMiniDiverlibro = () => {
               Pequeñas dosis de gran diversión
             </h3>
             <p className="product__text--description">
-              Este libro sensorial de fieltro consta de 8 páginas cosidas y
+              Este libro sensorial de fieltro consta de 6 páginas cosidas y
               puedes elegir las actividades a incluir.
               <br />
               <br />
@@ -350,7 +350,10 @@ const ProductMiniDiverlibro = () => {
       <div className="product__order">
         <h3>¿Quieres pedir un mini-Diverlibro?</h3>
         <ol className="product__order--list">
-          <li>Rellena el formulario con las características básicas.</li>
+          <li>
+            Envíame un correo o WhatsApp con las características básicas que
+            quieres
+          </li>
           <li>
             En un máximo de 24 horas me pongo en contacto contigo para concretar
             los detalles de tu libro sensorial.

@@ -50,65 +50,65 @@ import act6meses18meses38 from "../../../assets/products/actividades/6-18-meses/
 import act6meses18meses39 from "../../../assets/products/actividades/6-18-meses/6-18-meses-actividad-39.jpg";
 import act6meses18meses40 from "../../../assets/products/actividades/6-18-meses/6-18-meses-actividad-40.jpg";
 
-import act18meses2años1 from "../../../assets/products/actividades/18-meses-2-años/18-meses-2-años-actividad-1.jpg";
-import act18meses2años2 from "../../../assets/products/actividades/18-meses-2-años/18-meses-2-años-actividad-2.jpg";
-import act18meses2años3 from "../../../assets/products/actividades/18-meses-2-años/18-meses-2-años-actividad-3.jpg";
-import act18meses2años4 from "../../../assets/products/actividades/18-meses-2-años/18-meses-2-años-actividad-4.jpg";
-import act18meses2años5 from "../../../assets/products/actividades/18-meses-2-años/18-meses-2-años-actividad-5.jpg";
-import act18meses2años6 from "../../../assets/products/actividades/18-meses-2-años/18-meses-2-años-actividad-6.jpg";
-import act18meses2años7 from "../../../assets/products/actividades/18-meses-2-años/18-meses-2-años-actividad-7.jpg";
-import act18meses2años8 from "../../../assets/products/actividades/18-meses-2-años/18-meses-2-años-actividad-8.jpg";
-import act18meses2años9 from "../../../assets/products/actividades/18-meses-2-años/18-meses-2-años-actividad-9.jpg";
-import act18meses2años10 from "../../../assets/products/actividades/18-meses-2-años/18-meses-2-años-actividad-10.jpg";
-import act18meses2años11 from "../../../assets/products/actividades/18-meses-2-años/18-meses-2-años-actividad-11.jpg";
-import act18meses2años12 from "../../../assets/products/actividades/18-meses-2-años/18-meses-2-años-actividad-12.jpg";
-import act18meses2años13 from "../../../assets/products/actividades/18-meses-2-años/18-meses-2-años-actividad-13.jpg";
-import act18meses2años14 from "../../../assets/products/actividades/18-meses-2-años/18-meses-2-años-actividad-14.jpg";
-import act18meses2años15 from "../../../assets/products/actividades/18-meses-2-años/18-meses-2-años-actividad-15.jpg";
-import act18meses2años16 from "../../../assets/products/actividades/18-meses-2-años/18-meses-2-años-actividad-16.jpg";
-import act18meses2años17 from "../../../assets/products/actividades/18-meses-2-años/18-meses-2-años-actividad-17.jpg";
-import act18meses2años18 from "../../../assets/products/actividades/18-meses-2-años/18-meses-2-años-actividad-18.jpg";
-import act18meses2años19 from "../../../assets/products/actividades/18-meses-2-años/18-meses-2-años-actividad-19.jpg";
-import act18meses2años20 from "../../../assets/products/actividades/18-meses-2-años/18-meses-2-años-actividad-20.jpg";
-import act18meses2años21 from "../../../assets/products/actividades/18-meses-2-años/18-meses-2-años-actividad-21.jpg";
-import act18meses2años22 from "../../../assets/products/actividades/18-meses-2-años/18-meses-2-años-actividad-22.jpg";
-import act18meses2años23 from "../../../assets/products/actividades/18-meses-2-años/18-meses-2-años-actividad-23.jpg";
-import act18meses2años24 from "../../../assets/products/actividades/18-meses-2-años/18-meses-2-años-actividad-24.jpg";
-import act18meses2años25 from "../../../assets/products/actividades/18-meses-2-años/18-meses-2-años-actividad-25.jpg";
-import act18meses2años26 from "../../../assets/products/actividades/18-meses-2-años/18-meses-2-años-actividad-26.jpg";
-import act18meses2años27 from "../../../assets/products/actividades/18-meses-2-años/18-meses-2-años-actividad-27.jpg";
-import act18meses2años28 from "../../../assets/products/actividades/18-meses-2-años/18-meses-2-años-actividad-28.jpg";
-import act18meses2años29 from "../../../assets/products/actividades/18-meses-2-años/18-meses-2-años-actividad-29.jpg";
-import act18meses2años30 from "../../../assets/products/actividades/18-meses-2-años/18-meses-2-años-actividad-30.jpg";
-import act18meses2años31 from "../../../assets/products/actividades/18-meses-2-años/18-meses-2-años-actividad-31.jpg";
-import act18meses2años32 from "../../../assets/products/actividades/18-meses-2-años/18-meses-2-años-actividad-32.jpg";
+import act18meses2anos1 from "../../../assets/products/actividades/18-meses-2-anos/18-meses-2-anos-actividad-1.jpg";
+import act18meses2anos2 from "../../../assets/products/actividades/18-meses-2-anos/18-meses-2-anos-actividad-2.jpg";
+import act18meses2anos3 from "../../../assets/products/actividades/18-meses-2-anos/18-meses-2-anos-actividad-3.jpg";
+import act18meses2anos4 from "../../../assets/products/actividades/18-meses-2-anos/18-meses-2-anos-actividad-4.jpg";
+import act18meses2anos5 from "../../../assets/products/actividades/18-meses-2-anos/18-meses-2-anos-actividad-5.jpg";
+import act18meses2anos6 from "../../../assets/products/actividades/18-meses-2-anos/18-meses-2-anos-actividad-6.jpg";
+import act18meses2anos7 from "../../../assets/products/actividades/18-meses-2-anos/18-meses-2-anos-actividad-7.jpg";
+import act18meses2anos8 from "../../../assets/products/actividades/18-meses-2-anos/18-meses-2-anos-actividad-8.jpg";
+import act18meses2anos9 from "../../../assets/products/actividades/18-meses-2-anos/18-meses-2-anos-actividad-9.jpg";
+import act18meses2anos10 from "../../../assets/products/actividades/18-meses-2-anos/18-meses-2-anos-actividad-10.jpg";
+import act18meses2anos11 from "../../../assets/products/actividades/18-meses-2-anos/18-meses-2-anos-actividad-11.jpg";
+import act18meses2anos12 from "../../../assets/products/actividades/18-meses-2-anos/18-meses-2-anos-actividad-12.jpg";
+import act18meses2anos13 from "../../../assets/products/actividades/18-meses-2-anos/18-meses-2-anos-actividad-13.jpg";
+import act18meses2anos14 from "../../../assets/products/actividades/18-meses-2-anos/18-meses-2-anos-actividad-14.jpg";
+import act18meses2anos15 from "../../../assets/products/actividades/18-meses-2-anos/18-meses-2-anos-actividad-15.jpg";
+import act18meses2anos16 from "../../../assets/products/actividades/18-meses-2-anos/18-meses-2-anos-actividad-16.jpg";
+import act18meses2anos17 from "../../../assets/products/actividades/18-meses-2-anos/18-meses-2-anos-actividad-17.jpg";
+import act18meses2anos18 from "../../../assets/products/actividades/18-meses-2-anos/18-meses-2-anos-actividad-18.jpg";
+import act18meses2anos19 from "../../../assets/products/actividades/18-meses-2-anos/18-meses-2-anos-actividad-19.jpg";
+import act18meses2anos20 from "../../../assets/products/actividades/18-meses-2-anos/18-meses-2-anos-actividad-20.jpg";
+import act18meses2anos21 from "../../../assets/products/actividades/18-meses-2-anos/18-meses-2-anos-actividad-21.jpg";
+import act18meses2anos22 from "../../../assets/products/actividades/18-meses-2-anos/18-meses-2-anos-actividad-22.jpg";
+import act18meses2anos23 from "../../../assets/products/actividades/18-meses-2-anos/18-meses-2-anos-actividad-23.jpg";
+import act18meses2anos24 from "../../../assets/products/actividades/18-meses-2-anos/18-meses-2-anos-actividad-24.jpg";
+import act18meses2anos25 from "../../../assets/products/actividades/18-meses-2-anos/18-meses-2-anos-actividad-25.jpg";
+import act18meses2anos26 from "../../../assets/products/actividades/18-meses-2-anos/18-meses-2-anos-actividad-26.jpg";
+import act18meses2anos27 from "../../../assets/products/actividades/18-meses-2-anos/18-meses-2-anos-actividad-27.jpg";
+import act18meses2anos28 from "../../../assets/products/actividades/18-meses-2-anos/18-meses-2-anos-actividad-28.jpg";
+import act18meses2anos29 from "../../../assets/products/actividades/18-meses-2-anos/18-meses-2-anos-actividad-29.jpg";
+import act18meses2anos30 from "../../../assets/products/actividades/18-meses-2-anos/18-meses-2-anos-actividad-30.jpg";
+import act18meses2anos31 from "../../../assets/products/actividades/18-meses-2-anos/18-meses-2-anos-actividad-31.jpg";
+import act18meses2anos32 from "../../../assets/products/actividades/18-meses-2-anos/18-meses-2-anos-actividad-32.jpg";
 
-import act2años5años1 from "../../../assets/products/actividades/2-5-años/2-5-años-actividad-1.jpg";
-import act2años5años2 from "../../../assets/products/actividades/2-5-años/2-5-años-actividad-2.jpg";
-import act2años5años3 from "../../../assets/products/actividades/2-5-años/2-5-años-actividad-3.jpg";
-import act2años5años4 from "../../../assets/products/actividades/2-5-años/2-5-años-actividad-4.jpg";
-import act2años5años5 from "../../../assets/products/actividades/2-5-años/2-5-años-actividad-5.jpg";
-import act2años5años6 from "../../../assets/products/actividades/2-5-años/2-5-años-actividad-6.jpg";
-import act2años5años7 from "../../../assets/products/actividades/2-5-años/2-5-años-actividad-7.jpg";
-import act2años5años8 from "../../../assets/products/actividades/2-5-años/2-5-años-actividad-8.jpg";
-import act2años5años9 from "../../../assets/products/actividades/2-5-años/2-5-años-actividad-9.jpg";
-import act2años5años10 from "../../../assets/products/actividades/2-5-años/2-5-años-actividad-10.jpg";
-import act2años5años11 from "../../../assets/products/actividades/2-5-años/2-5-años-actividad-11.jpg";
-import act2años5años12 from "../../../assets/products/actividades/2-5-años/2-5-años-actividad-12.jpg";
-import act2años5años13 from "../../../assets/products/actividades/2-5-años/2-5-años-actividad-13.jpg";
-import act2años5años14 from "../../../assets/products/actividades/2-5-años/2-5-años-actividad-14.jpg";
-import act2años5años15 from "../../../assets/products/actividades/2-5-años/2-5-años-actividad-15.jpg";
-import act2años5años16 from "../../../assets/products/actividades/2-5-años/2-5-años-actividad-16.jpg";
-import act2años5años17 from "../../../assets/products/actividades/2-5-años/2-5-años-actividad-17.jpg";
-import act2años5años18 from "../../../assets/products/actividades/2-5-años/2-5-años-actividad-18.jpg";
-import act2años5años19 from "../../../assets/products/actividades/2-5-años/2-5-años-actividad-19.jpg";
-import act2años5años20 from "../../../assets/products/actividades/2-5-años/2-5-años-actividad-20.jpg";
-import act2años5años21 from "../../../assets/products/actividades/2-5-años/2-5-años-actividad-21.jpg";
-import act2años5años22 from "../../../assets/products/actividades/2-5-años/2-5-años-actividad-22.jpg";
-import act2años5años23 from "../../../assets/products/actividades/2-5-años/2-5-años-actividad-23.jpg";
-import act2años5años24 from "../../../assets/products/actividades/2-5-años/2-5-años-actividad-24.jpg";
-import act2años5años25 from "../../../assets/products/actividades/2-5-años/2-5-años-actividad-25.jpg";
-import act2años5años26 from "../../../assets/products/actividades/2-5-años/2-5-años-actividad-26.jpg";
+import act2anos5anos1 from "../../../assets/products/actividades/2-5-anos/2-5-anos-actividad-1.jpg";
+import act2anos5anos2 from "../../../assets/products/actividades/2-5-anos/2-5-anos-actividad-2.jpg";
+import act2anos5anos3 from "../../../assets/products/actividades/2-5-anos/2-5-anos-actividad-3.jpg";
+import act2anos5anos4 from "../../../assets/products/actividades/2-5-anos/2-5-anos-actividad-4.jpg";
+import act2anos5anos5 from "../../../assets/products/actividades/2-5-anos/2-5-anos-actividad-5.jpg";
+import act2anos5anos6 from "../../../assets/products/actividades/2-5-anos/2-5-anos-actividad-6.jpg";
+import act2anos5anos7 from "../../../assets/products/actividades/2-5-anos/2-5-anos-actividad-7.jpg";
+import act2anos5anos8 from "../../../assets/products/actividades/2-5-anos/2-5-anos-actividad-8.jpg";
+import act2anos5anos9 from "../../../assets/products/actividades/2-5-anos/2-5-anos-actividad-9.jpg";
+import act2anos5anos10 from "../../../assets/products/actividades/2-5-anos/2-5-anos-actividad-10.jpg";
+import act2anos5anos11 from "../../../assets/products/actividades/2-5-anos/2-5-anos-actividad-11.jpg";
+import act2anos5anos12 from "../../../assets/products/actividades/2-5-anos/2-5-anos-actividad-12.jpg";
+import act2anos5anos13 from "../../../assets/products/actividades/2-5-anos/2-5-anos-actividad-13.jpg";
+import act2anos5anos14 from "../../../assets/products/actividades/2-5-anos/2-5-anos-actividad-14.jpg";
+import act2anos5anos15 from "../../../assets/products/actividades/2-5-anos/2-5-anos-actividad-15.jpg";
+import act2anos5anos16 from "../../../assets/products/actividades/2-5-anos/2-5-anos-actividad-16.jpg";
+import act2anos5anos17 from "../../../assets/products/actividades/2-5-anos/2-5-anos-actividad-17.jpg";
+import act2anos5anos18 from "../../../assets/products/actividades/2-5-anos/2-5-anos-actividad-18.jpg";
+import act2anos5anos19 from "../../../assets/products/actividades/2-5-anos/2-5-anos-actividad-19.jpg";
+import act2anos5anos20 from "../../../assets/products/actividades/2-5-anos/2-5-anos-actividad-20.jpg";
+import act2anos5anos21 from "../../../assets/products/actividades/2-5-anos/2-5-anos-actividad-21.jpg";
+import act2anos5anos22 from "../../../assets/products/actividades/2-5-anos/2-5-anos-actividad-22.jpg";
+import act2anos5anos23 from "../../../assets/products/actividades/2-5-anos/2-5-anos-actividad-23.jpg";
+import act2anos5anos24 from "../../../assets/products/actividades/2-5-anos/2-5-anos-actividad-24.jpg";
+import act2anos5anos25 from "../../../assets/products/actividades/2-5-anos/2-5-anos-actividad-25.jpg";
+import act2anos5anos26 from "../../../assets/products/actividades/2-5-anos/2-5-anos-actividad-26.jpg";
 
 const Actividades = () => {
   const AutoplaySlider = withAutoplay(AwesomeSlider);
@@ -433,224 +433,224 @@ const Actividades = () => {
           >
             <div>
               <img
-                src={act18meses2años1}
+                src={act18meses2anos1}
                 alt="Foto de actividad para 6 a 18 meses"
                 className="sliderAct__img"
               />
             </div>
             <div>
               <img
-                src={act18meses2años2}
+                src={act18meses2anos2}
                 alt="Foto de actividad para 6 a 18 meses"
                 className="sliderAct__img"
               />
             </div>
             <div>
               <img
-                src={act18meses2años3}
+                src={act18meses2anos3}
                 alt="Foto de actividad para 6 a 18 meses"
                 className="sliderAct__img"
               />
             </div>
             <div>
               <img
-                src={act18meses2años4}
+                src={act18meses2anos4}
                 alt="Foto de actividad para 6 a 18 meses"
                 className="sliderAct__img"
               />
             </div>
             <div>
               <img
-                src={act18meses2años5}
+                src={act18meses2anos5}
                 alt="Foto de actividad para 6 a 18 meses"
                 className="sliderAct__img"
               />
             </div>
             <div>
               <img
-                src={act18meses2años6}
+                src={act18meses2anos6}
                 alt="Foto de actividad para 6 a 18 meses"
                 className="sliderAct__img"
               />
             </div>
             <div>
               <img
-                src={act18meses2años7}
+                src={act18meses2anos7}
                 alt="Foto de actividad para 6 a 18 meses"
                 className="sliderAct__img"
               />
             </div>
             <div>
               <img
-                src={act18meses2años8}
+                src={act18meses2anos8}
                 alt="Foto de actividad para 6 a 18 meses"
                 className="sliderAct__img"
               />
             </div>
             <div>
               <img
-                src={act18meses2años9}
+                src={act18meses2anos9}
                 alt="Foto de actividad para 6 a 18 meses"
                 className="sliderAct__img"
               />
             </div>
             <div>
               <img
-                src={act18meses2años10}
+                src={act18meses2anos10}
                 alt="Foto de actividad para 6 a 18 meses"
                 className="sliderAct__img"
               />
             </div>
             <div>
               <img
-                src={act18meses2años11}
+                src={act18meses2anos11}
                 alt="Foto de actividad para 6 a 18 meses"
                 className="sliderAct__img"
               />
             </div>
             <div>
               <img
-                src={act18meses2años12}
+                src={act18meses2anos12}
                 alt="Foto de actividad para 6 a 18 meses"
                 className="sliderAct__img"
               />
             </div>
             <div>
               <img
-                src={act18meses2años13}
+                src={act18meses2anos13}
                 alt="Foto de actividad para 6 a 18 meses"
                 className="sliderAct__img"
               />
             </div>
             <div>
               <img
-                src={act18meses2años14}
+                src={act18meses2anos14}
                 alt="Foto de actividad para 6 a 18 meses"
                 className="sliderAct__img"
               />
             </div>
             <div>
               <img
-                src={act18meses2años15}
+                src={act18meses2anos15}
                 alt="Foto de actividad para 6 a 18 meses"
                 className="sliderAct__img"
               />
             </div>
             <div>
               <img
-                src={act18meses2años16}
+                src={act18meses2anos16}
                 alt="Foto de actividad para 6 a 18 meses"
                 className="sliderAct__img"
               />
             </div>
             <div>
               <img
-                src={act18meses2años17}
+                src={act18meses2anos17}
                 alt="Foto de actividad para 6 a 18 meses"
                 className="sliderAct__img"
               />
             </div>
             <div>
               <img
-                src={act18meses2años18}
+                src={act18meses2anos18}
                 alt="Foto de actividad para 6 a 18 meses"
                 className="sliderAct__img"
               />
             </div>
             <div>
               <img
-                src={act18meses2años19}
+                src={act18meses2anos19}
                 alt="Foto de actividad para 6 a 18 meses"
                 className="sliderAct__img"
               />
             </div>
             <div>
               <img
-                src={act18meses2años20}
+                src={act18meses2anos20}
                 alt="Foto de actividad para 6 a 18 meses"
                 className="sliderAct__img"
               />
             </div>
             <div>
               <img
-                src={act18meses2años21}
+                src={act18meses2anos21}
                 alt="Foto de actividad para 6 a 18 meses"
                 className="sliderAct__img"
               />
             </div>
             <div>
               <img
-                src={act18meses2años22}
+                src={act18meses2anos22}
                 alt="Foto de actividad para 6 a 18 meses"
                 className="sliderAct__img"
               />
             </div>
             <div>
               <img
-                src={act18meses2años23}
+                src={act18meses2anos23}
                 alt="Foto de actividad para 6 a 18 meses"
                 className="sliderAct__img"
               />
             </div>
             <div>
               <img
-                src={act18meses2años24}
+                src={act18meses2anos24}
                 alt="Foto de actividad para 6 a 18 meses"
                 className="sliderAct__img"
               />
             </div>
             <div>
               <img
-                src={act18meses2años25}
+                src={act18meses2anos25}
                 alt="Foto de actividad para 6 a 18 meses"
                 className="sliderAct__img"
               />
             </div>
             <div>
               <img
-                src={act18meses2años26}
+                src={act18meses2anos26}
                 alt="Foto de actividad para 6 a 18 meses"
                 className="sliderAct__img"
               />
             </div>
             <div>
               <img
-                src={act18meses2años27}
+                src={act18meses2anos27}
                 alt="Foto de actividad para 6 a 18 meses"
                 className="sliderAct__img"
               />
             </div>
             <div>
               <img
-                src={act18meses2años28}
+                src={act18meses2anos28}
                 alt="Foto de actividad para 6 a 18 meses"
                 className="sliderAct__img"
               />
             </div>
             <div>
               <img
-                src={act18meses2años29}
+                src={act18meses2anos29}
                 alt="Foto de actividad para 6 a 18 meses"
                 className="sliderAct__img"
               />
             </div>
             <div>
               <img
-                src={act18meses2años30}
+                src={act18meses2anos30}
                 alt="Foto de actividad para 6 a 18 meses"
                 className="sliderAct__img"
               />
             </div>
             <div>
               <img
-                src={act18meses2años31}
+                src={act18meses2anos31}
                 alt="Foto de actividad para 6 a 18 meses"
                 className="sliderAct__img"
               />
             </div>
             <div>
               <img
-                src={act18meses2años32}
+                src={act18meses2anos32}
                 alt="Foto de actividad para 6 a 18 meses"
                 className="sliderAct__img"
               />
@@ -674,182 +674,182 @@ const Actividades = () => {
           >
             <div>
               <img
-                src={act2años5años1}
+                src={act2anos5anos1}
                 alt="Foto de actividad para 6 a 18 meses"
                 className="sliderAct__img"
               />
             </div>
             <div>
               <img
-                src={act2años5años2}
+                src={act2anos5anos2}
                 alt="Foto de actividad para 6 a 18 meses"
                 className="sliderAct__img"
               />
             </div>
             <div>
               <img
-                src={act2años5años3}
+                src={act2anos5anos3}
                 alt="Foto de actividad para 6 a 18 meses"
                 className="sliderAct__img"
               />
             </div>
             <div>
               <img
-                src={act2años5años4}
+                src={act2anos5anos4}
                 alt="Foto de actividad para 6 a 18 meses"
                 className="sliderAct__img"
               />
             </div>
             <div>
               <img
-                src={act2años5años5}
+                src={act2anos5anos5}
                 alt="Foto de actividad para 6 a 18 meses"
                 className="sliderAct__img"
               />
             </div>
             <div>
               <img
-                src={act2años5años6}
+                src={act2anos5anos6}
                 alt="Foto de actividad para 6 a 18 meses"
                 className="sliderAct__img"
               />
             </div>
             <div>
               <img
-                src={act2años5años7}
+                src={act2anos5anos7}
                 alt="Foto de actividad para 6 a 18 meses"
                 className="sliderAct__img"
               />
             </div>
             <div>
               <img
-                src={act2años5años8}
+                src={act2anos5anos8}
                 alt="Foto de actividad para 6 a 18 meses"
                 className="sliderAct__img"
               />
             </div>
             <div>
               <img
-                src={act2años5años9}
+                src={act2anos5anos9}
                 alt="Foto de actividad para 6 a 18 meses"
                 className="sliderAct__img"
               />
             </div>
             <div>
               <img
-                src={act2años5años10}
+                src={act2anos5anos10}
                 alt="Foto de actividad para 6 a 18 meses"
                 className="slider__img"
               />
             </div>
             <div>
               <img
-                src={act2años5años11}
+                src={act2anos5anos11}
                 alt="Foto de actividad para 6 a 18 meses"
                 className="slider__img"
               />
             </div>
             <div>
               <img
-                src={act2años5años12}
+                src={act2anos5anos12}
                 alt="Foto de actividad para 6 a 18 meses"
                 className="slider__img"
               />
             </div>
             <div>
               <img
-                src={act2años5años13}
+                src={act2anos5anos13}
                 alt="Foto de actividad para 6 a 18 meses"
                 className="slider__img"
               />
             </div>
             <div>
               <img
-                src={act2años5años14}
+                src={act2anos5anos14}
                 alt="Foto de actividad para 6 a 18 meses"
                 className="slider__img"
               />
             </div>
             <div>
               <img
-                src={act2años5años15}
+                src={act2anos5anos15}
                 alt="Foto de actividad para 6 a 18 meses"
                 className="slider__img"
               />
             </div>
             <div>
               <img
-                src={act2años5años16}
+                src={act2anos5anos16}
                 alt="Foto de actividad para 6 a 18 meses"
                 className="slider__img"
               />
             </div>
             <div>
               <img
-                src={act2años5años17}
+                src={act2anos5anos17}
                 alt="Foto de actividad para 6 a 18 meses"
                 className="slider__img"
               />
             </div>
             <div>
               <img
-                src={act2años5años18}
+                src={act2anos5anos18}
                 alt="Foto de actividad para 6 a 18 meses"
                 className="slider__img"
               />
             </div>
             <div>
               <img
-                src={act2años5años19}
+                src={act2anos5anos19}
                 alt="Foto de actividad para 6 a 18 meses"
                 className="slider__img"
               />
             </div>
             <div>
               <img
-                src={act2años5años20}
+                src={act2anos5anos20}
                 alt="Foto de actividad para 6 a 18 meses"
                 className="slider__img"
               />
             </div>
             <div>
               <img
-                src={act2años5años21}
+                src={act2anos5anos21}
                 alt="Foto de actividad para 6 a 18 meses"
                 className="slider__img"
               />
             </div>
             <div>
               <img
-                src={act2años5años22}
+                src={act2anos5anos22}
                 alt="Foto de actividad para 6 a 18 meses"
                 className="slider__img"
               />
             </div>
             <div>
               <img
-                src={act2años5años23}
+                src={act2anos5anos23}
                 alt="Foto de actividad para 6 a 18 meses"
                 className="slider__img"
               />
             </div>
             <div>
               <img
-                src={act2años5años24}
+                src={act2anos5anos24}
                 alt="Foto de actividad para 6 a 18 meses"
                 className="slider__img"
               />
             </div>
             <div>
               <img
-                src={act2años5años25}
+                src={act2anos5anos25}
                 alt="Foto de actividad para 6 a 18 meses"
                 className="slider__img"
               />
             </div>
             <div>
               <img
-                src={act2años5años26}
+                src={act2anos5anos26}
                 alt="Foto de actividad para 6 a 18 meses"
                 className="slider__img"
               />
@@ -866,7 +866,7 @@ const Actividades = () => {
           ¿Eliges Diverlibro o Mini Diverlibro?
         </h3>
         <ol className="product__order--list">
-          <li>Rellena el formulario con las características básicas.</li>
+          <li>Envíame un correo o WhatsApp con las características básicas que quieres.</li>
           <li>
             En un máximo de 24 horas me pongo en contacto contigo para concretar
             los detalles de tu libro sensorial.

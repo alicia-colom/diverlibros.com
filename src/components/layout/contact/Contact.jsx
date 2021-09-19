@@ -29,8 +29,8 @@ const Contact = () => {
           </ul>
           <p className="contact__text--description">
             Si quieres hacerme cualquier pregunta, comentario o sugerencia,
-            puedes hacerlo rellenando este formulario, o por teléfono, WhatsApp
-            o email, y en el plazo de 24 horas me pondré en contacto contigo.
+            puedes hacerlo por teléfono, WhatsApp o email, y en el plazo de 24
+            horas me pondré en contacto contigo.
           </p>
           <ul className="contact__list">
             <li className="contact__list--item">
