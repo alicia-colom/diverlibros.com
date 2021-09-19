@@ -47,17 +47,6 @@ const Header = () => {
             open={Boolean(anchorEl)}
             onClose={handleClose}
           >
-            {/* <MenuItem onClick={handleClose}>
-              <Link to="/about">
-                <a
-                  name="link-about"
-                  title="Ir a qué es Diverlibros"
-                  className="header__nav--button"
-                >
-                  Qué es Diverlibro
-                </a>
-              </Link>
-            </MenuItem> */}
             <MenuItem onClick={handleClose}>
               <Link to="/catalogo">
                 <a
@@ -69,6 +58,17 @@ const Header = () => {
                 </a>
               </Link>
             </MenuItem>
+            {/* <MenuItem onClick={handleClose}>
+              <Link to="/about">
+                <a
+                  name="link-about"
+                  title="Ir a qué es Diverlibros"
+                  className="header__nav--button"
+                >
+                  Qué es Diverlibro
+                </a>
+              </Link>
+            </MenuItem> */}
             <MenuItem onClick={handleClose}>
               <Link to="/contacto">
                 <a
@@ -84,17 +84,6 @@ const Header = () => {
         </div>
 
         <ul className="header__nav--basic">
-          {/* <li className="header__nav--item">
-            <Link to="/about">
-              <a
-                name="link-about"
-                title="Ir a qué es Diverlibros"
-                className="header__nav--button"
-              >
-                Qué es Diverlibro
-              </a>
-            </Link>
-          </li> */}
           <li className="header__nav--item">
             <Link to="/catalogo">
               <a
@@ -106,6 +95,17 @@ const Header = () => {
               </a>
             </Link>
           </li>
+          {/* <li className="header__nav--item">
+            <Link to="/about">
+              <a
+                name="link-about"
+                title="Ir a qué es Diverlibros"
+                className="header__nav--button"
+              >
+                Qué es Diverlibro
+              </a>
+            </Link>
+          </li> */}
           <li className="header__nav--item">
             <Link to="/contacto">
               <a
