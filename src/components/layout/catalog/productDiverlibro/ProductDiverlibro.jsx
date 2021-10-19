@@ -51,7 +51,7 @@ const ProductDiverlibro = () => {
   return (
     <>
       <h2>
-        <span className="fontDiverlibros">Diverlibros</span>
+        <span className="fontDiverlibros">Diverlibro</span>
       </h2>
 
       <div className="product__container">
@@ -377,7 +377,7 @@ const ProductDiverlibro = () => {
                   con solapa y velcro. Encuadernación móvil: páginas unidas por
                   anillas, así puedes cambiar el orden de las actividades, sacar
                   alguna actividad para llevar en el bolso o añadir más páginas
-                  con actividades en el futuro Mínimo de 4 páginas con
+                  con actividades en el futuro. Mínimo de 4 páginas con
                   actividades más portada y contraportada.
                   <br />
                   <i>El Diverlibro que crece con el peque ............ </i>
@@ -413,7 +413,10 @@ const ProductDiverlibro = () => {
       <div className="product__order">
         <h3>¿Quieres pedir un libro sensorial personalizado?</h3>
         <ol className="product__order--list">
-          <li>Envíame un correo o WhatsApp con las características básicas que quieres</li>
+          <li>
+            Envíame un correo o WhatsApp con las características básicas que
+            quieres
+          </li>
           <li>
             En un máximo de 24 horas me pongo en contacto contigo para entrar en
             detalle sobre la personalización y diseñar juntos un Diverlibro

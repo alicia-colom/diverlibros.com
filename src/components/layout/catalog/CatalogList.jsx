@@ -14,7 +14,7 @@ function CatalogList() {
       name: "Diverlibro",
       image: photoProductDiverlibro,
       path: "/catalogo/diverlibro",
-      description: "Sensoriales, artesanales y personalizables al detalle",
+      description: "Sensorial, artesanal y personalizable al detalle",
     },
     {
       id: "minidiverlibro",

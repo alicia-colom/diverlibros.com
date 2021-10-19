@@ -6,7 +6,7 @@ const AboutUs = () => {
   return (
     <>
       <h2 className="title">
-        Te presentamos el catálogo de productos de{" "}
+        Bienvenido al catálogo de productos de{" "}
         <span className="fontDiverlibros">Diverlibros</span>
       </h2>
       <div className="catalogContainer">

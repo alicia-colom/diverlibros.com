@@ -42,7 +42,7 @@ const ProductMiniDiverlibro = () => {
   return (
     <>
       <h2>
-        <span className="fontDiverlibros">Mini Diverlibros</span>
+        <span className="fontDiverlibros">Mini Diverlibro</span>
       </h2>
 
       <div className="product__container">

@@ -123,6 +123,17 @@ const Actividades = () => {
         <div className="act act1">
           <div>
             <h3 className="activities__title">de 6 a 18 meses</h3>
+            <p className="activities__text">
+              Estas actividades están pensadas para trabajar aspectos y
+              habilidades que empiezan desarrollar los más pequeños de la casa.
+              En este tiempo, los niñxs comienzan a investigar e interesarse por
+              las diferentes texturas. también a relacionar y diferenciar los
+              diferentes animales, por ejemplo, y reconocer sus sonidos. Son
+              capaces de imitar pequeños gestos, reconocer algunas partes del
+              cuerpo, diferenciar colores, entretenerse con cuentos y disfrutar
+              con los juegos simbólicos. Todos estos son los aspectos que han
+              sido trabajados en este grupo de actividades.
+            </p>
           </div>
           <AutoplaySlider
             animation="foldOutAnimation"
@@ -420,6 +431,18 @@ const Actividades = () => {
         <div className="act act2">
           <div>
             <h3 className="activities__title">de 18 meses a 2 años</h3>
+            <p className="activities__text">
+              En esta etapa, los pequeños empiezan a adquirir nuevas habilidades
+              y cada vez son más capaces de superar pequeños hitos. El trabajo
+              principal se centra en estimular la motricidad fina, la
+              concentración, la coordinación ojo-mano. Para ello, se trabaja con
+              los animales, personajes reconocidos por ellos, colores, formas,
+              etc. Además, en esta etapa los niños funcionan muy bien por
+              imitación. Copian todo lo que ven. Por eso, los juegos tipo:
+              cocinar, lavar la ropa, disfrazar al muñeco,... les gusta tanto.
+              En este grupo de actividades podrás encontrar y trabajar todos
+              estos aspectos.
+            </p>
           </div>
           <AutoplaySlider
             animation="foldOutAnimation"
@@ -661,6 +684,17 @@ const Actividades = () => {
         <div className="act act3">
           <div>
             <h3 className="activities__title">de 2 a 5 años</h3>
+            <p className="activities__text text3">
+              Los niñxs de esta edad dan un salto importante en cuanto a
+              habilidades y conocimientos. Así como destreza manual, memoria,
+              etc. Es una etapa en la que demandan aprender cosas nuevas
+              continuamente: abrochar y desabrocharse solos la chaqueta, atarse
+              sus zapatos, cerrar y abrir una cremallera,.. También el mundo de
+              los juegos donde pueden participar más personas comienzan a
+              centrar su atención: tres en raya con sus personajes favoritos,
+              juego de memoria, tangram, puzzles... Cómo veis, las posibilidades
+              son muchas y, con todas ellas, la diversión está asegurada.
+            </p>
           </div>
           <AutoplaySlider
             animation="foldOutAnimation"
@@ -866,7 +900,10 @@ const Actividades = () => {
           ¿Eliges Diverlibro o Mini Diverlibro?
         </h3>
         <ol className="product__order--list">
-          <li>Envíame un correo o WhatsApp con las características básicas que quieres.</li>
+          <li>
+            Envíame un correo o WhatsApp con las características básicas que
+            quieres.
+          </li>
           <li>
             En un máximo de 24 horas me pongo en contacto contigo para concretar
             los detalles de tu libro sensorial.

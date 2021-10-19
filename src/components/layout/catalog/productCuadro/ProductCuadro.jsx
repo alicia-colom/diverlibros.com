@@ -38,7 +38,7 @@ const ProductCuadro = () => {
   return (
     <>
       <h2>
-        <span className="fontDiverlibros">Cuadros personalizados</span>
+        <span className="fontDiverlibros">Cuadro personalizado</span>
       </h2>
 
       <div className="product__container">

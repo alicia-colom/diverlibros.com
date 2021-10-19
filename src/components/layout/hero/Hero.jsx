@@ -72,7 +72,7 @@ const Hero = () => {
         <div>
           <div className="hero__text">
             <h3 className="hero__text--subtitle">
-              Aleja a los niños de las pantallas sumergiendolos en el juego y
+              Aleja a los niños de las pantallas sumergiéndolos en el juego y
               las historias a través de los sentidos
             </h3>
           </div>
